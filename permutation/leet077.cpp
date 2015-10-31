@@ -1,3 +1,11 @@
+/* Lexicographic ordered generation
+ Without recursions, generate all combinations in sequence. 
+Basic logic: 
+put n items in the first n of m slots; 
+each step, if right most slot can be moved one slot further right, do so; 
+otherwise find right most item that can be moved, 
+move it one step and put all items already to its right next to it.
+*/
 class Solution {
 public:
     vector<vector<int>> combine(int n, int k) {
