@@ -1,4 +1,4 @@
-Class Solution {
+class Solution {
  public:
   typedef vector<int> FingerPrint;
 
