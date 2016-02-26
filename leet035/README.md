@@ -11,4 +11,5 @@ Here are few examples.
 [1,3,5,6], 0 → 0
 ```
 Hide Tags ```Array``` ```Binary Search```
+
 Hide Similar Problems ```(E) First Bad Version```
