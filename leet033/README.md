@@ -1,16 +1,15 @@
-#31. Next Permutation(M)
-Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
+#33. Search in Rotated Sorted Array My Submissions Question
+Total Accepted: 91997 Total Submissions: 307359 Difficulty: Hard
+Suppose a sorted array is rotated at some pivot unknown to you beforehand.
 
-If such arrangement is not possible, it must rearrange it as the lowest possible order (ie, sorted in ascending order).
+(i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).
 
-The replacement must be in-place, do not allocate extra memory.
+You are given a target value to search. If found in the array return its index, otherwise return -1.
 
-Here are some examples. Inputs are in the left-hand column and its corresponding outputs are in the right-hand column.
-```
-1,2,3 → 1,3,2
-3,2,1 → 1,2,3
-1,1,5 → 1,5,1
-```
-Tags ```Array```
+You may assume no duplicate exists in the array.
 
-Similar Problems [```(M) Permutations```](https://leetcode.com/problems/permutations/) [```(M) Permutations II```](https://leetcode.com/problems/permutations-ii/) [```(M) Permutation Sequence```](https://leetcode.com/problems/permutation-sequence/) [```(M) Palindrome Permutation II```](https://leetcode.com/problems/palindrome-permutation-ii/)
+Company Tags ```LinkedIn``` ```Bloomberg``` ```Uber``` ```Facebook```
+
+Tags ```Array``` ```Binary Search```
+
+Similar Problems [```(M) Search in Rotated Sorted Array II```](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) [```(M) Find Minimum in Rotated Sorted Array```](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
