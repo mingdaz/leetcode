@@ -1,5 +1,4 @@
-#34. Search for a Range My Submissions Question
-Total Accepted: 74609 Total Submissions: 260268 Difficulty: Medium
+#34. Search for a Range(M)
 Given a sorted array of integers, find the starting and ending position of a given target value.
 
 Your algorithm's runtime complexity must be in the order of O(log n).
