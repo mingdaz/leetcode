@@ -13,4 +13,4 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 ```
 Tags ```Array```
 
-Similar Problems [(M) Permutations](https://leetcode.com/problems/permutations/) [(M) Permutations II](https://leetcode.com/problems/permutations-ii/) [(M) Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) [(M) Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/)
+Similar Problems [```(M) Permutations```](https://leetcode.com/problems/permutations/) [```(M) Permutations II```](https://leetcode.com/problems/permutations-ii/) [```(M) Permutation Sequence```](https://leetcode.com/problems/permutation-sequence/) [```(M) Palindrome Permutation II```](https://leetcode.com/problems/palindrome-permutation-ii/)
