@@ -1,4 +1,4 @@
-#33. Search in Rotated Sorted Array My Submissions Question
+#33. Search in Rotated Sorted Array
 Total Accepted: 91997 Total Submissions: 307359 Difficulty: Hard
 Suppose a sorted array is rotated at some pivot unknown to you beforehand.
 
