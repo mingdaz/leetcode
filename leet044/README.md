@@ -22,7 +22,7 @@ isMatch("aa", "a*") → true
 
 isMatch("ab", "?*") → true
 
-isMatch("aab", "c*a*b") → false
+isMatch("aab", "c\*a\*b") → false
 
 
 Hide Company Tags ```Google```
