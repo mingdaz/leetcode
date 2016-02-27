@@ -10,8 +10,11 @@ Elements in a combination (a1, a2, … , ak) must be in non-descending order. (i
 The solution set must not contain duplicate combinations.
 For example, given candidate set 2,3,6,7 and target 7, 
 A solution set is: 
-```[7]``` 
-```[2, 2, 3]``` 
+
+```[ 7 ]``` 
+
+```[2, 2, 3]```
+
 Hide Tags ```Array Backtracking```
 
 Hide Similar Problems ```(M) Letter Combinations of a Phone Number``` ```(M) Combination Sum II``` ```(M) Combinations``` ```(M) Combination Sum III``` ```(M) Factor Combinations```
