@@ -1,5 +1,4 @@
-#41. First Missing Positive My Submissions Question
-Total Accepted: 59121 Total Submissions: 251200 Difficulty: Hard
+#41. First Missing Positive(H)
 Given an unsorted integer array, find the first missing positive integer.
 
 For example,
