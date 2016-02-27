@@ -1,5 +1,4 @@
-#42. Trapping Rain Water My Submissions Question
-Total Accepted: 60325 Total Submissions: 190267 Difficulty: Hard
+#42. Trapping Rain Water(H)
 Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
 
 For example, 
