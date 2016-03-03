@@ -13,10 +13,16 @@ Factors should be greater than 1 and less than n.
 Examples: 
 input: 1
 output: 
-```[]```
+```
+[]
+```
+
 input: 37
 output: 
-```[]```
+
+```
+[]
+```
 input: 12
 output:
 ```
