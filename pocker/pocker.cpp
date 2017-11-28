@@ -1,16 +1,20 @@
 #include<iostream>
-#include<queue>
 using namespace std;
+
+//create card struct 
 struct card{
-    int val;
-    int r;
-    card* next;
+    int val; //origin index
+    int r;   //period when the card first go back to its place
+    card* next;  // pointer to next card
     card(int x): val(x),r(-1),next(NULL){}
 };
 
+//create a deck struct basically it is a queue
 class deck{
 public:
     deck():head(NULL),tail(NULL){}
+    
+    /* add card to the end */
     void push(card* t){
         check = false;
         if(head==NULL){
@@ -22,6 +26,9 @@ public:
             tail = tail->next;
         }
     }
+
+
+    /* add card to the front */
     void push_front(card* t){
         check = false;
         if(head==NULL){
@@ -33,6 +40,8 @@ public:
             head = t;
         }
     }
+
+    /* pop the front card */
     card* pop(){
         check = false;
         if(head==NULL) return NULL;
@@ -44,7 +53,14 @@ public:
             return res;
         }
     }
+
+    /* check if the deck is empty or not*/
     bool empty(){ return head==NULL;}
+
+    /* check if the deck is in origin order or each card has period 
+     * the parameter cnt is the current shuffle times.
+     * set allperiod and ordered flag
+     * */
     void docheck(int cnt){ 
         card* temp = head;
         int ind = 0;
@@ -64,14 +80,20 @@ public:
         }
         check = true;
     }
+
+    /* return allperiod flag */
     bool isAllperiod(int cnt){
         if(!check) docheck(cnt);
         return allperiod; 
     }
+
+    /* return is order flag */
     bool isOrdered(int cnt){
         if(!check) docheck(cnt);
         return ordered;
     }
+
+    /* return lowest common multuply */
     int getallLCM(){
         if(head==NULL||!allperiod) return 0;
         card* temp = head;
@@ -82,6 +104,8 @@ public:
         }
         return res;
     }
+
+    /* print alll card in deck */
     void print(){
         card* temp = head;
         while(temp!=NULL){
@@ -91,10 +115,12 @@ public:
         cout<<endl;
     }
 private:
+    /* calculate lowest common multiply of two number */
     int lcm(int a, int b){
         return a*(b/gcd(a,b));
     }
     
+    /* calculate greatest common dividor */
     int gcd(int a,int b){
         if(a<b) return gcd(b,a);
         while(b){
@@ -112,9 +138,10 @@ private:
     card* tail;
 };
 
-
+/* simulate the game */
 class Simulator{
 public:
+    /* create deck */
 Simulator(int x):n(x),cnt(0){
     if(n<=0) return;
     A = new deck();
@@ -124,13 +151,17 @@ Simulator(int x):n(x),cnt(0){
     }
 }
 
+/* do one time shuffle */
 void shuffle(){
     deck* B = new deck();
     while(!A->empty()){
+        /* based on my understanding, after all the cards are on the table
+         * I will collection those card from bottom to front.
+         * hince each time I push card to the front of new deck.
+         * */
         B->push_front(A->pop());
         if(A->empty()) break;
         A->push(A->pop());
-
     }
     delete A;
     A = B;
@@ -138,12 +169,15 @@ void shuffle(){
     A->docheck(cnt);
 }
 
+/* solve problem */
 int solve(){
     do{
         shuffle();
       //  print();
     }while(!A->isOrdered(cnt)&&!A->isAllperiod(cnt));
+    /* if already ordered return cnt */
     if(A->isOrdered(cnt)) return cnt;
+    /* if all have period return lcm */
     return A->getallLCM(); 
 }
 
@@ -158,10 +192,13 @@ private:
 };
 
 int main(){
-    int n;
+    int n=0;
+    while(n<=0){
+    cout<<"please enter n(>0):";
     cin>>n;
+    }
     Simulator game = Simulator(n);
-    cout<<game.solve()<<endl;
+    cout<<"number of shuffle times:"<<game.solve()<<endl;
     return 0;
 }
 
