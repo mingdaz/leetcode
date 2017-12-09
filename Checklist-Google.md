@@ -1,8 +1,8 @@
 |check |number| Title |Acceptance|Difficulty|
 | --- | --- | --- | --- | --- |
-|<ul><li>- [ ] </li><ul>|541|Reverse String II|43.7%|Easy|
-|<ul><li>- [ ] </li><ul>|521|Longest Uncommon Subsequence I|55.8%|Easy|
-|<ul><li>- [ ] </li><ul>|257|Binary Tree Paths|39.9%|Easy|
+|<ul><li>- [x] </li><ul>|541|Reverse String II|43.7%|Easy|
+|<ul><li>- [x] </li><ul>|521|Longest Uncommon Subsequence I|55.8%|Easy|
+|<ul><li>- [x] </li><ul>|257|Binary Tree Paths|39.9%|Easy|
 |<ul><li>- [x] </li><ul>|401|Binary Watch|44.8%|Easy|
 |<ul><li>- [x] </li><ul>|270|Closest Binary Search Tree Value |40.2%|Easy|
 |<ul><li>- [x] </li><ul>|604|Design Compressed String Iterator |32.6%|Easy|
