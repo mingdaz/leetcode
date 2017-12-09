@@ -3,44 +3,44 @@
 |<ul><li>- [ ] </li><ul>|541|Reverse String II|43.7%|Easy|
 |<ul><li>- [ ] </li><ul>|521|Longest Uncommon Subsequence I|55.8%|Easy|
 |<ul><li>- [ ] </li><ul>|257|Binary Tree Paths|39.9%|Easy|
-|<ul><li>- [ ] </li><ul>|401|Binary Watch|44.8%|Easy|
-|<ul><li>- [ ] </li><ul>|270|Closest Binary Search Tree Value |40.2%|Easy|
-|<ul><li>- [ ] </li><ul>|604|Design Compressed String Iterator |32.6%|Easy|
+|<ul><li>- [x] </li><ul>|401|Binary Watch|44.8%|Easy|
+|<ul><li>- [x] </li><ul>|270|Closest Binary Search Tree Value |40.2%|Easy|
+|<ul><li>- [x] </li><ul>|604|Design Compressed String Iterator |32.6%|Easy|
 |<ul><li>- [ ] </li><ul>|520|Detect Capital|52.0%|Easy|
-|<ul><li>- [ ] </li><ul>|543|Diameter of Binary Tree|44.8%|Easy|
+|<ul><li>- [x] </li><ul>|543|Diameter of Binary Tree|44.8%|Easy|
 |<ul><li>- [ ] </li><ul>|448|Find All Numbers Disappeared in an Array|51.3%|Easy|
 |<ul><li>- [ ] </li><ul>|501|Find Mode in Binary Search Tree|37.7%|Easy|
-|<ul><li>- [ ] </li><ul>|389|Find the Difference|51.0%|Easy|
-|<ul><li>- [ ] </li><ul>|422|Valid Word Square |36.4%|Easy|
+|<ul><li>- [x] </li><ul>|389|Find the Difference|51.0%|Easy|
+|<ul><li>- [x] </li><ul>|422|Valid Word Square |36.4%|Easy|
 |<ul><li>- [ ] </li><ul>|408|Valid Word Abbreviation |28.3%|Easy|
-|<ul><li>- [ ] </li><ul>|20|Valid Parentheses|33.7%|Easy|
+|<ul><li>- [x] </li><ul>|20|Valid Parentheses|33.7%|Easy|
 |<ul><li>- [ ] </li><ul>|387|First Unique Character in a String|47.1%|Easy|
-|<ul><li>- [ ] </li><ul>|293|Flip Game |56.7%|Easy|
+|<ul><li>- [x] </li><ul>|293|Flip Game |56.7%|Easy|
 |<ul><li>- [ ] </li><ul>|374|Guess Number Higher or Lower|36.0%|Easy|
 |<ul><li>- [ ] </li><ul>|475|Heaters|29.6%|Easy|
-|<ul><li>- [ ] </li><ul>|463|Island Perimeter|57.5%|Easy|
-|<ul><li>- [ ] </li><ul>|657|Judge Route Circle|68.7%|Easy|
+|<ul><li>- [x] </li><ul>|463|Island Perimeter|57.5%|Easy|
+|<ul><li>- [x] </li><ul>|657|Judge Route Circle|68.7%|Easy|
 |<ul><li>- [ ] </li><ul>|482|License Key Formatting|41.8%|Easy|
 |<ul><li>- [ ] </li><ul>|359|Logger Rate Limiter |60.1%|Easy|
 |<ul><li>- [ ] </li><ul>|409|Longest Palindrome|45.6%|Easy|
-|<ul><li>- [ ] </li><ul>|415|Add Strings|41.6%|Easy|
+|<ul><li>- [x] </li><ul>|415|Add Strings|41.6%|Easy|
 |<ul><li>- [ ] </li><ul>|687|Longest Univalue Path|33.8%|Easy|
-|<ul><li>- [ ] </li><ul>|485|Max Consecutive Ones|54.0%|Easy|
+|<ul><li>- [x] </li><ul>|485|Max Consecutive Ones|54.0%|Easy|
 |<ul><li>- [ ] </li><ul>|551|Student Attendance Record I|44.2%|Easy|
 |<ul><li>- [ ] </li><ul>|246|Strobogrammatic Number |40.1%|Easy|
-|<ul><li>- [ ] </li><ul>|643|Maximum Average Subarray I|37.9%|Easy|
-|<ul><li>- [ ] </li><ul>|155|Min Stack|29.9%|Easy|
+|<ul><li>- [x] </li><ul>|643|Maximum Average Subarray I|37.9%|Easy|
+|<ul><li>- [x] </li><ul>|155|Min Stack|29.9%|Easy|
 |<ul><li>- [ ] </li><ul>|530|Minimum Absolute Difference in BST|47.1%|Easy|
-|<ul><li>- [ ] </li><ul>|346|Moving Average from Data Stream |59.6%|Easy|
-|<ul><li>- [ ] </li><ul>|665|Non-decreasing Array|21.0%|Easy|
-|<ul><li>- [ ] </li><ul>|400|Nth Digit|30.1%|Easy|
+|<ul><li>- [x] </li><ul>|346|Moving Average from Data Stream |59.6%|Easy|
+|<ul><li>- [x] </li><ul>|665|Non-decreasing Array|21.0%|Easy|
+|<ul><li>- [x] </li><ul>|400|Nth Digit|30.1%|Easy|
 |<ul><li>- [ ] </li><ul>|447|Number of Boomerangs|45.9%|Easy|
-|<ul><li>- [ ] </li><ul>|276|Paint Fence |34.8%|Easy|
-|<ul><li>- [ ] </li><ul>|266|Palindrome Permutation |57.6%|Easy|
+|<ul><li>- [x] </li><ul>|276|Paint Fence |34.8%|Easy|
+|<ul><li>- [x] </li><ul>|266|Palindrome Permutation |57.6%|Easy|
 |<ul><li>- [ ] </li><ul>|581|Shortest Unsorted Continuous Subarray|29.4%|Easy|
 |<ul><li>- [ ] </li><ul>|66|Plus One|39.1%|Easy|
 |<ul><li>- [ ] </li><ul>|326|Power of Three|40.5%|Easy|
-|<ul><li>- [ ] </li><ul>|231|Power of Two|40.4%|Easy|
+|<ul><li>- [x] </li><ul>|231|Power of Two|40.4%|Easy|
 |<ul><li>- [ ] </li><ul>|506|Relative Ranks|46.6%|Easy|
 |<ul><li>- [ ] </li><ul>|686|Repeated String Match|34.3%|Easy|
 |<ul><li>- [ ] </li><ul>|734|Sentence Similarity|38.0%|Easy|
