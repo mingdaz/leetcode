@@ -6,18 +6,18 @@
 |<ul><li>- [x] </li><ul>|401|Binary Watch|44.8%|Easy|
 |<ul><li>- [x] </li><ul>|270|Closest Binary Search Tree Value |40.2%|Easy|
 |<ul><li>- [x] </li><ul>|604|Design Compressed String Iterator |32.6%|Easy|
-|<ul><li>- [ ] </li><ul>|520|Detect Capital|52.0%|Easy|
+|<ul><li>- [x] </li><ul>|520|Detect Capital|52.0%|Easy|
 |<ul><li>- [x] </li><ul>|543|Diameter of Binary Tree|44.8%|Easy|
-|<ul><li>- [ ] </li><ul>|448|Find All Numbers Disappeared in an Array|51.3%|Easy|
-|<ul><li>- [ ] </li><ul>|501|Find Mode in Binary Search Tree|37.7%|Easy|
+|<ul><li>- [x] </li><ul>|448|Find All Numbers Disappeared in an Array|51.3%|Easy|
+|<ul><li>- [x] </li><ul>|501|Find Mode in Binary Search Tree|37.7%|Easy|
 |<ul><li>- [x] </li><ul>|389|Find the Difference|51.0%|Easy|
 |<ul><li>- [x] </li><ul>|422|Valid Word Square |36.4%|Easy|
-|<ul><li>- [ ] </li><ul>|408|Valid Word Abbreviation |28.3%|Easy|
+|<ul><li>- [x] </li><ul>|408|Valid Word Abbreviation |28.3%|Easy|
 |<ul><li>- [x] </li><ul>|20|Valid Parentheses|33.7%|Easy|
-|<ul><li>- [ ] </li><ul>|387|First Unique Character in a String|47.1%|Easy|
+|<ul><li>- [x] </li><ul>|387|First Unique Character in a String|47.1%|Easy|
 |<ul><li>- [x] </li><ul>|293|Flip Game |56.7%|Easy|
-|<ul><li>- [ ] </li><ul>|374|Guess Number Higher or Lower|36.0%|Easy|
-|<ul><li>- [ ] </li><ul>|475|Heaters|29.6%|Easy|
+|<ul><li>- [x] </li><ul>|374|Guess Number Higher or Lower|36.0%|Easy|
+|<ul><li>- [x] </li><ul>|475|Heaters|29.6%|Easy|
 |<ul><li>- [x] </li><ul>|463|Island Perimeter|57.5%|Easy|
 |<ul><li>- [x] </li><ul>|657|Judge Route Circle|68.7%|Easy|
 |<ul><li>- [ ] </li><ul>|482|License Key Formatting|41.8%|Easy|
