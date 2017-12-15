@@ -22,7 +22,7 @@
 |<ul><li>- [x] </li><ul>|657|Judge Route Circle|68.7%|Easy|
 |<ul><li>- [x] </li><ul>|482|License Key Formatting|41.8%|Easy|
 |<ul><li>- [x] </li><ul>|359|Logger Rate Limiter |60.1%|Easy|
-|<ul><li>- [ ] </li><ul>|409|Longest Palindrome|45.6%|Easy|
+|<ul><li>- [x] </li><ul>|409|Longest Palindrome|45.6%|Easy|
 |<ul><li>- [x] </li><ul>|415|Add Strings|41.6%|Easy|
 |<ul><li>- [ ] </li><ul>|687|Longest Univalue Path|33.8%|Easy|
 |<ul><li>- [x] </li><ul>|485|Max Consecutive Ones|54.0%|Easy|
