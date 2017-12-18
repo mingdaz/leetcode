@@ -24,21 +24,21 @@
 |<ul><li>- [x] </li><ul>|359|Logger Rate Limiter |60.1%|Easy|
 |<ul><li>- [x] </li><ul>|409|Longest Palindrome|45.6%|Easy|
 |<ul><li>- [x] </li><ul>|415|Add Strings|41.6%|Easy|
-|<ul><li>- [ ] </li><ul>|687|Longest Univalue Path|33.8%|Easy|
+|<ul><li>- [x] </li><ul>|687|Longest Univalue Path|33.8%|Easy|
 |<ul><li>- [x] </li><ul>|485|Max Consecutive Ones|54.0%|Easy|
-|<ul><li>- [ ] </li><ul>|551|Student Attendance Record I|44.2%|Easy|
-|<ul><li>- [ ] </li><ul>|246|Strobogrammatic Number |40.1%|Easy|
+|<ul><li>- [x] </li><ul>|551|Student Attendance Record I|44.2%|Easy|
+|<ul><li>- [x] </li><ul>|246|Strobogrammatic Number |40.1%|Easy|
 |<ul><li>- [x] </li><ul>|643|Maximum Average Subarray I|37.9%|Easy|
 |<ul><li>- [x] </li><ul>|155|Min Stack|29.9%|Easy|
-|<ul><li>- [ ] </li><ul>|530|Minimum Absolute Difference in BST|47.1%|Easy|
+|<ul><li>- [x] </li><ul>|530|Minimum Absolute Difference in BST|47.1%|Easy|
 |<ul><li>- [x] </li><ul>|346|Moving Average from Data Stream |59.6%|Easy|
 |<ul><li>- [x] </li><ul>|665|Non-decreasing Array|21.0%|Easy|
 |<ul><li>- [x] </li><ul>|400|Nth Digit|30.1%|Easy|
-|<ul><li>- [ ] </li><ul>|447|Number of Boomerangs|45.9%|Easy|
+|<ul><li>- [x] </li><ul>|447|Number of Boomerangs|45.9%|Easy|
 |<ul><li>- [x] </li><ul>|276|Paint Fence |34.8%|Easy|
 |<ul><li>- [x] </li><ul>|266|Palindrome Permutation |57.6%|Easy|
-|<ul><li>- [ ] </li><ul>|581|Shortest Unsorted Continuous Subarray|29.4%|Easy|
-|<ul><li>- [ ] </li><ul>|66|Plus One|39.1%|Easy|
+|<ul><li>- [x] </li><ul>|581|Shortest Unsorted Continuous Subarray|29.4%|Easy|
+|<ul><li>- [x] </li><ul>|66|Plus One|39.1%|Easy|
 |<ul><li>- [ ] </li><ul>|326|Power of Three|40.5%|Easy|
 |<ul><li>- [x] </li><ul>|231|Power of Two|40.4%|Easy|
 |<ul><li>- [ ] </li><ul>|506|Relative Ranks|46.6%|Easy|
