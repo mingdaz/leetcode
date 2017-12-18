@@ -39,10 +39,10 @@
 |<ul><li>- [x] </li><ul>|266|Palindrome Permutation |57.6%|Easy|
 |<ul><li>- [x] </li><ul>|581|Shortest Unsorted Continuous Subarray|29.4%|Easy|
 |<ul><li>- [x] </li><ul>|66|Plus One|39.1%|Easy|
-|<ul><li>- [ ] </li><ul>|326|Power of Three|40.5%|Easy|
+|<ul><li>- [x] </li><ul>|326|Power of Three|40.5%|Easy|
 |<ul><li>- [x] </li><ul>|231|Power of Two|40.4%|Easy|
-|<ul><li>- [ ] </li><ul>|506|Relative Ranks|46.6%|Easy|
-|<ul><li>- [ ] </li><ul>|686|Repeated String Match|34.3%|Easy|
+|<ul><li>- [x] </li><ul>|506|Relative Ranks|46.6%|Easy|
+|<ul><li>- [x] </li><ul>|686|Repeated String Match|34.3%|Easy|
 |<ul><li>- [ ] </li><ul>|734|Sentence Similarity|38.0%|Easy|
 |<ul><li>- [ ] </li><ul>|459|Repeated Substring Pattern|38.2%|Easy|
 |<ul><li>- [ ] </li><ul>|345|Reverse Vowels of a String|38.8%|Easy|
