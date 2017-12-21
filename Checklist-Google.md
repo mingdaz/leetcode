@@ -49,7 +49,7 @@
 |<ul><li>- [x] </li><ul>|173|Binary Search Tree Iterator|42.6%|Medium|
 |<ul><li>- [x] </li><ul>|281|Zigzag Iterator |51.5%|Medium|
 |<ul><li>- [x] </li><ul>|288|Unique Word Abbreviation |17.3%|Medium|
-|<ul><li>- [ ] </li><ul>|240|Search a 2D Matrix II|38.9%|Medium|
+|<ul><li>- [x] </li><ul>|240|Search a 2D Matrix II|38.9%|Medium|
 |<ul><li>- [ ] </li><ul>|418|Sentence Screen Fitting |27.9%|Medium|
 |<ul><li>- [ ] </li><ul>|294|Flip Game II |46.7%|Medium|
 |<ul><li>- [ ] </li><ul>|737|Sentence Similarity II|41.4%|Medium|
