@@ -43,12 +43,12 @@
 |<ul><li>- [x] </li><ul>|231|Power of Two|40.4%|Easy|
 |<ul><li>- [x] </li><ul>|506|Relative Ranks|46.6%|Easy|
 |<ul><li>- [x] </li><ul>|686|Repeated String Match|34.3%|Easy|
-|<ul><li>- [ ] </li><ul>|734|Sentence Similarity|38.0%|Easy|
-|<ul><li>- [ ] </li><ul>|459|Repeated Substring Pattern|38.2%|Easy|
-|<ul><li>- [ ] </li><ul>|345|Reverse Vowels of a String|38.8%|Easy|
-|<ul><li>- [ ] </li><ul>|173|Binary Search Tree Iterator|42.6%|Medium|
-|<ul><li>- [ ] </li><ul>|281|Zigzag Iterator |51.5%|Medium|
-|<ul><li>- [ ] </li><ul>|288|Unique Word Abbreviation |17.3%|Medium|
+|<ul><li>- [x] </li><ul>|734|Sentence Similarity|38.0%|Easy|
+|<ul><li>- [x] </li><ul>|459|Repeated Substring Pattern|38.2%|Easy|
+|<ul><li>- [x] </li><ul>|345|Reverse Vowels of a String|38.8%|Easy|
+|<ul><li>- [x] </li><ul>|173|Binary Search Tree Iterator|42.6%|Medium|
+|<ul><li>- [x] </li><ul>|281|Zigzag Iterator |51.5%|Medium|
+|<ul><li>- [x] </li><ul>|288|Unique Word Abbreviation |17.3%|Medium|
 |<ul><li>- [ ] </li><ul>|240|Search a 2D Matrix II|38.9%|Medium|
 |<ul><li>- [ ] </li><ul>|418|Sentence Screen Fitting |27.9%|Medium|
 |<ul><li>- [ ] </li><ul>|294|Flip Game II |46.7%|Medium|
