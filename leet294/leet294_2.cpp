@@ -2,7 +2,6 @@ class Solution {
 public:
     unordered_map<string,bool> dict;
     bool canWin(string s) {
-        // if(dict.find(s)!=dict.end()) return dict[s];
         
         for(int i=1;i<s.length();i++){
             if(s[i]=='+'&&s[i]==s[i-1]){
@@ -11,11 +10,17 @@ public:
                 if(dict.find(s)==dict.end()) {
                     dict[s] = canWin(s);
                 }
-                if(!dict[s]) return true;
+                if(!dict[s]){
+                    s[i] = '+';
+                    s[i-1] = '+';
+                    dict[s] = true;
+                    return true;  
+                } 
                 s[i] = '+';
                 s[i-1] = '+';
             }
         }
+        dict[s] = false;
         return false;
     }
 };
