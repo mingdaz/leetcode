@@ -54,14 +54,14 @@
 |<ul><li>- [?] </li><ul>|294|Flip Game II |46.7%|Medium|
 |<ul><li>- [x] </li><ul>|737|Sentence Similarity II|41.4%|Medium|
 |<ul><li>- [x] </li><ul>|444|Sequence Reconstruction |19.7%|Medium|
-|<ul><li>- [ ] </li><ul>|402|Remove K Digits|26.1%|Medium|
-|<ul><li>- [ ] </li><ul>|341|Flatten Nested List Iterator|42.3%|Medium|
-|<ul><li>- [ ] </li><ul>|251|Flatten 2D Vector |41.0%|Medium|
-|<ul><li>- [ ] </li><ul>|393|UTF-8 Validation|34.6%|Medium|
-|<ul><li>- [ ] </li><ul>|684|Redundant Connection|40.4%|Medium|
-|<ul><li>- [ ] </li><ul>|331|Verify Preorder Serialization of a Binary Tree|36.7%|Medium|
-|<ul><li>- [ ] </li><ul>|332|Reconstruct Itinerary|29.5%|Medium|
-|<ul><li>- [ ] </li><ul>|484|Find Permutation |55.3%|Medium|
+|<ul><li>- [x] </li><ul>|402|Remove K Digits|26.1%|Medium|
+|<ul><li>- [x] </li><ul>|341|Flatten Nested List Iterator|42.3%|Medium|
+|<ul><li>- [x] </li><ul>|251|Flatten 2D Vector |41.0%|Medium|
+|<ul><li>- [x] </li><ul>|393|UTF-8 Validation|34.6%|Medium|
+|<ul><li>- [x] </li><ul>|684|Redundant Connection|40.4%|Medium|
+|<ul><li>- [x] </li><ul>|331|Verify Preorder Serialization of a Binary Tree|36.7%|Medium|
+|<ul><li>- [x] </li><ul>|332|Reconstruct Itinerary|29.5%|Medium|
+|<ul><li>- [x] </li><ul>|484|Find Permutation |55.3%|Medium|
 |<ul><li>- [ ] </li><ul>|162|Find Peak Element|38.2%|Medium|
 |<ul><li>- [ ] </li><ul>|286|Walls and Gates |45.0%|Medium|
 |<ul><li>- [ ] </li><ul>|166|Fraction to Recurring Decimal|17.8%|Medium|
