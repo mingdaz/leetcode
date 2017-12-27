@@ -60,23 +60,23 @@
 |<ul><li>- [x] </li><ul>|393|UTF-8 Validation|34.6%|Medium|
 |<ul><li>- [x] </li><ul>|684|Redundant Connection|40.4%|Medium|
 |<ul><li>- [x] </li><ul>|331|Verify Preorder Serialization of a Binary Tree|36.7%|Medium|
-|<ul><li>- [x] </li><ul>|332|Reconstruct Itinerary|29.5%|Medium|
+|<ul><li>- [?] </li><ul>|332|Reconstruct Itinerary|29.5%|Medium|
 |<ul><li>- [x] </li><ul>|484|Find Permutation |55.3%|Medium|
-|<ul><li>- [ ] </li><ul>|162|Find Peak Element|38.2%|Medium|
-|<ul><li>- [ ] </li><ul>|286|Walls and Gates |45.0%|Medium|
-|<ul><li>- [ ] </li><ul>|166|Fraction to Recurring Decimal|17.8%|Medium|
-|<ul><li>- [ ] </li><ul>|545|Boundary of Binary Tree |31.9%|Medium|
-|<ul><li>- [ ] </li><ul>|289|Game of Life|37.1%|Medium|
-|<ul><li>- [ ] </li><ul>|320|Generalized Abbreviation |45.6%|Medium|
-|<ul><li>- [ ] </li><ul>|22|Generate Parentheses|46.5%|Medium|
-|<ul><li>- [ ] </li><ul>|261|Graph Valid Tree |38.2%|Medium|
-|<ul><li>- [ ] </li><ul>|249|Group Shifted Strings |42.9%|Medium|
-|<ul><li>- [ ] </li><ul>|375|Guess Number Higher or Lower II|35.9%|Medium|
-|<ul><li>- [ ] </li><ul>|542|01 Matrix|33.0%|Medium|
-|<ul><li>- [ ] </li><ul>|274|H-Index|33.5%|Medium|
-|<ul><li>- [ ] </li><ul>|133|Clone Graph|25.2%|Medium|
-|<ul><li>- [ ] </li><ul>|676|Implement Magic Dictionary|49.9%|Medium|
-|<ul><li>- [ ] </li><ul>|208|Implement Trie (Prefix Tree)|29.7%|Medium|
+|<ul><li>- [x] </li><ul>|162|Find Peak Element|38.2%|Medium|
+|<ul><li>- [x] </li><ul>|286|Walls and Gates |45.0%|Medium|
+|<ul><li>- [x] </li><ul>|166|Fraction to Recurring Decimal|17.8%|Medium|
+|<ul><li>- [x] </li><ul>|545|Boundary of Binary Tree |31.9%|Medium|
+|<ul><li>- [x] </li><ul>|289|Game of Life|37.1%|Medium|
+|<ul><li>- [x] </li><ul>|320|Generalized Abbreviation |45.6%|Medium|
+|<ul><li>- [x] </li><ul>|22|Generate Parentheses|46.5%|Medium|
+|<ul><li>- [x] </li><ul>|261|Graph Valid Tree |38.2%|Medium|
+|<ul><li>- [x] </li><ul>|249|Group Shifted Strings |42.9%|Medium|
+|<ul><li>- [x] </li><ul>|375|Guess Number Higher or Lower II|35.9%|Medium|
+|<ul><li>- [x] </li><ul>|542|01 Matrix|33.0%|Medium|
+|<ul><li>- [x] </li><ul>|274|H-Index|33.5%|Medium|
+|<ul><li>- [x] </li><ul>|133|Clone Graph|25.2%|Medium|
+|<ul><li>- [x] </li><ul>|676|Implement Magic Dictionary|49.9%|Medium|
+|<ul><li>- [x] </li><ul>|208|Implement Trie (Prefix Tree)|29.7%|Medium|
 |<ul><li>- [ ] </li><ul>|380|Insert Delete GetRandom O(1)|39.5%|Medium|
 |<ul><li>- [ ] </li><ul>|259|3Sum Smaller |41.8%|Medium|
 |<ul><li>- [ ] </li><ul>|397|Integer Replacement|30.3%|Medium|
