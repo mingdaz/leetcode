@@ -22,11 +22,11 @@ public:
         }
         
         vector<int> res;
-        while(DP[max_idx]>1){
-            res.push_back(nums[max_idx]);
+        res.push_back(nums[max_idx]);    
+        while(pre[max_idx]!=-1){
             max_idx = pre[max_idx];
+            res.push_back(nums[max_idx]);
         }
-        res.push_back(nums[max_idx]);
         return res;
     }
 };
