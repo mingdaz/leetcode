@@ -1,32 +1,29 @@
 class Solution {
 public:
     int longestLine(vector<vector<int>>& M) {
-        m = M.size();
-        if(!m) return 0;
-        n = M[0].size();
-        if(!n) return 0;
-        vector<vector<vector<int>>> cnt(m,vector<vector<int>>(n,vector<int>(4,1)));
-        int ans = 0;
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                if(M[i][j])
-                    mark(cnt,M,i,j,ans);
+        if (M.empty()) return 0;
+        int nr = M.size();
+        if (M[0].empty()) return 0;
+        int nc = M[0].size();
+        
+        int maxc = 0;
+        vector<int> horizontal(nc, 0), vertical(nr, 0), diag1(nc+nr-1, 0), diag2(nc+nr-1, 0);
+        for (int i=0; i<nr; ++i) {
+            for (int j=0; j<nc; ++j) {
+                if (M[i][j] == 1) {
+                    maxc = std::max(maxc, ++horizontal[j]);
+                    maxc = std::max(maxc, ++vertical[i]);
+                    maxc = std::max(maxc, ++diag1[i+j]);
+                    maxc = std::max(maxc, ++diag2[i+nc-1-j]);
+                }
+                else {
+                    horizontal[j] = 0;
+                    vertical[i] = 0;
+                    diag1[i+j] = 0;
+                    diag2[i+nc-1-j] = 0;
+                }
             }
         }
-        return ans;
-    }
-    int m;
-    int n;
-    vector<vector<int>> d = {{0,-1},{-1,-1},{-1,0},{-1,1}};
-    void mark(vector<vector<vector<int>>>& cnt, vector<vector<int>>& M, int i, int j,int& ans){
-        for(int k=0;k<4;k++){
-            int x = i+d[k][0];
-            int y = j+d[k][1];
-            if(x>=0&&x<m&&y>=0&&y<n&&M[x][y]){
-                cnt[i][j][k] = cnt[x][y][k]+1;
-                ans = max(ans,cnt[i][j][k]);
-            }
-        }
-        ans = max(ans,1);
+        return maxc;
     }
 };
