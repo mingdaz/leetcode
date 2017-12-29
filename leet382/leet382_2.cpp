@@ -1,3 +1,4 @@
+// follow up without knowing total length,  reservoir sampling
 class Solution {
 private:
     ListNode* head;
