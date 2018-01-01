@@ -1,4 +1,4 @@
-sample 39 ms submission
+// sample 39 ms submission
 class Solution {
     struct T
     {
