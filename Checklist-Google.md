@@ -77,47 +77,47 @@
 |<ul><li>- [x] </li><ul>|133|Clone Graph|25.2%|Medium|
 |<ul><li>- [x] </li><ul>|676|Implement Magic Dictionary|49.9%|Medium|
 |<ul><li>- [x] </li><ul>|208|Implement Trie (Prefix Tree)|29.7%|Medium|
-|<ul><li>- [ ] </li><ul>|380|Insert Delete GetRandom O(1)|39.5%|Medium|
-|<ul><li>- [ ] </li><ul>|259|3Sum Smaller |41.8%|Medium|
-|<ul><li>- [ ] </li><ul>|397|Integer Replacement|30.3%|Medium|
-|<ul><li>- [ ] </li><ul>|351|Android Unlock Patterns |44.4%|Medium|
-|<ul><li>- [ ] </li><ul>|490|The Maze |43.6%|Medium|
-|<ul><li>- [ ] </li><ul>|651|4 Keys Keyboard |49.1%|Medium|
-|<ul><li>- [ ] </li><ul>|230|Kth Smallest Element in a BST|44.5%|Medium|
-|<ul><li>- [ ] </li><ul>|378|Kth Smallest Element in a Sorted Matrix|45.2%|Medium|
-|<ul><li>- [ ] </li><ul>|377|Combination Sum IV|42.4%|Medium|
-|<ul><li>- [ ] </li><ul>|368|Largest Divisible Subset|33.8%|Medium|
-|<ul><li>- [ ] </li><ul>|17|Letter Combinations of a Phone Number|35.5%|Medium|
-|<ul><li>- [ ] </li><ul>|469|Convex Polygon |33.6%|Medium|
-|<ul><li>- [ ] </li><ul>|505|The Maze II |38.5%|Medium|
-|<ul><li>- [ ] </li><ul>|356|Line Reflection |30.2%|Medium|
-|<ul><li>- [ ] </li><ul>|382|Linked List Random Node|47.2%|Medium|
-|<ul><li>- [ ] </li><ul>|494|Target Sum|43.7%|Medium|
-|<ul><li>- [ ] </li><ul>|531|Lonely Pixel I |55.6%|Medium|
-|<ul><li>- [ ] </li><ul>|533|Lonely Pixel II |44.7%|Medium|
-|<ul><li>- [ ] </li><ul>|388|Longest Absolute File Path|37.2%|Medium|
-|<ul><li>- [ ] </li><ul>|357|Count Numbers with Unique Digits|46.0%|Medium|
-|<ul><li>- [ ] </li><ul>|667|Beautiful Arrangement II|51.8%|Medium|
-|<ul><li>- [ ] </li><ul>|562|Longest Line of Consecutive One in Matrix |41.1%|Medium|
-|<ul><li>- [ ] </li><ul>|313|Super Ugly Number|38.1%|Medium|
-|<ul><li>- [ ] </li><ul>|526|Beautiful Arrangement|54.1%|Medium|
-|<ul><li>- [ ] </li><ul>|309|Best Time to Buy and Sell Stock with Cooldown|41.4%|Medium|
-|<ul><li>- [ ] </li><ul>|228|Summary Ranges|31.0%|Medium|
-|<ul><li>- [ ] </li><ul>|522|Longest Uncommon Subsequence II|31.9%|Medium|
-|<ul><li>- [ ] </li><ul>|560|Subarray Sum Equals K|40.6%|Medium|
-|<ul><li>- [ ] </li><ul>|524|Longest Word in Dictionary through Deleting|43.3%|Medium|
-|<ul><li>- [ ] </li><ul>|739|Daily Temperatures|51.5%|Medium|
-|<ul><li>- [ ] </li><ul>|481|Magical String|45.7%|Medium|
-|<ul><li>- [ ] </li><ul>|487|Max Consecutive Ones II |45.7%|Medium|
-|<ul><li>- [ ] </li><ul>|394|Decode String|41.8%|Medium|
-|<ul><li>- [ ] </li><ul>|583|Delete Operation for Two Strings|44.2%|Medium|
-|<ul><li>- [ ] </li><ul>|247|Strobogrammatic Number II |40.6%|Medium|
-|<ul><li>- [ ] </li><ul>|370|Range Addition |56.7%|Medium|
-|<ul><li>- [ ] </li><ul>|318|Maximum Product of Word Lengths|45.0%|Medium|
-|<ul><li>- [ ] </li><ul>|362|Design Hit Counter |54.6%|Medium|
-|<ul><li>- [ ] </li><ul>|379|Design Phone Directory |34.3%|Medium|
-|<ul><li>- [ ] </li><ul>|421|Maximum XOR of Two Numbers in an Array|47.0%|Medium|
-|<ul><li>- [ ] </li><ul>|353|Design Snake Game |26.9%|Medium|
+|<ul><li>- [x] </li><ul>|380|Insert Delete GetRandom O(1)|39.5%|Medium|
+|<ul><li>- [x] </li><ul>|259|3Sum Smaller |41.8%|Medium|
+|<ul><li>- [x] </li><ul>|397|Integer Replacement|30.3%|Medium|
+|<ul><li>- [x] </li><ul>|351|Android Unlock Patterns |44.4%|Medium|
+|<ul><li>- [x] </li><ul>|490|The Maze |43.6%|Medium|
+|<ul><li>- [x] </li><ul>|651|4 Keys Keyboard |49.1%|Medium|
+|<ul><li>- [x] </li><ul>|230|Kth Smallest Element in a BST|44.5%|Medium|
+|<ul><li>- [x] </li><ul>|378|Kth Smallest Element in a Sorted Matrix|45.2%|Medium|
+|<ul><li>- [x] </li><ul>|377|Combination Sum IV|42.4%|Medium|
+|<ul><li>- [x] </li><ul>|368|Largest Divisible Subset|33.8%|Medium|
+|<ul><li>- [x] </li><ul>|17|Letter Combinations of a Phone Number|35.5%|Medium|
+|<ul><li>- [x] </li><ul>|469|Convex Polygon |33.6%|Medium|
+|<ul><li>- [x] </li><ul>|505|The Maze II |38.5%|Medium|
+|<ul><li>- [x] </li><ul>|356|Line Reflection |30.2%|Medium|
+|<ul><li>- [x] </li><ul>|382|Linked List Random Node|47.2%|Medium|
+|<ul><li>- [x] </li><ul>|494|Target Sum|43.7%|Medium|
+|<ul><li>- [x] </li><ul>|531|Lonely Pixel I |55.6%|Medium|
+|<ul><li>- [x] </li><ul>|533|Lonely Pixel II |44.7%|Medium|
+|<ul><li>- [x] </li><ul>|388|Longest Absolute File Path|37.2%|Medium|
+|<ul><li>- [x] </li><ul>|357|Count Numbers with Unique Digits|46.0%|Medium|
+|<ul><li>- [x] </li><ul>|667|Beautiful Arrangement II|51.8%|Medium|
+|<ul><li>- [x] </li><ul>|562|Longest Line of Consecutive One in Matrix |41.1%|Medium|
+|<ul><li>- [x] </li><ul>|313|Super Ugly Number|38.1%|Medium|
+|<ul><li>- [x] </li><ul>|526|Beautiful Arrangement|54.1%|Medium|
+|<ul><li>- [x] </li><ul>|309|Best Time to Buy and Sell Stock with Cooldown|41.4%|Medium|
+|<ul><li>- [x] </li><ul>|228|Summary Ranges|31.0%|Medium|
+|<ul><li>- [x] </li><ul>|522|Longest Uncommon Subsequence II|31.9%|Medium|
+|<ul><li>- [x] </li><ul>|560|Subarray Sum Equals K|40.6%|Medium|
+|<ul><li>- [x] </li><ul>|524|Longest Word in Dictionary through Deleting|43.3%|Medium|
+|<ul><li>- [x] </li><ul>|739|Daily Temperatures|51.5%|Medium|
+|<ul><li>- [x] </li><ul>|481|Magical String|45.7%|Medium|
+|<ul><li>- [x] </li><ul>|487|Max Consecutive Ones II |45.7%|Medium|
+|<ul><li>- [x] </li><ul>|394|Decode String|41.8%|Medium|
+|<ul><li>- [x] </li><ul>|583|Delete Operation for Two Strings|44.2%|Medium|
+|<ul><li>- [x] </li><ul>|247|Strobogrammatic Number II |40.6%|Medium|
+|<ul><li>- [x] </li><ul>|370|Range Addition |56.7%|Medium|
+|<ul><li>- [x] </li><ul>|318|Maximum Product of Word Lengths|45.0%|Medium|
+|<ul><li>- [x] </li><ul>|362|Design Hit Counter |54.6%|Medium|
+|<ul><li>- [x] </li><ul>|379|Design Phone Directory |34.3%|Medium|
+|<ul><li>- [x] </li><ul>|421|Maximum XOR of Two Numbers in an Array|47.0%|Medium|
+|<ul><li>- [x] </li><ul>|353|Design Snake Game |26.9%|Medium|
 |<ul><li>- [ ] </li><ul>|348|Design Tic-Tac-Toe |45.8%|Medium|
 |<ul><li>- [ ] </li><ul>|253|Meeting Rooms II |39.3%|Medium|
 |<ul><li>- [ ] </li><ul>|56|Merge Intervals|31.1%|Medium|
