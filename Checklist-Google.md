@@ -118,26 +118,26 @@
 |<ul><li>- [x] </li><ul>|379|Design Phone Directory |34.3%|Medium|
 |<ul><li>- [x] </li><ul>|421|Maximum XOR of Two Numbers in an Array|47.0%|Medium|
 |<ul><li>- [x] </li><ul>|353|Design Snake Game |26.9%|Medium|
-|<ul><li>- [ ] </li><ul>|348|Design Tic-Tac-Toe |45.8%|Medium|
-|<ul><li>- [ ] </li><ul>|253|Meeting Rooms II |39.3%|Medium|
-|<ul><li>- [ ] </li><ul>|56|Merge Intervals|31.1%|Medium|
-|<ul><li>- [ ] </li><ul>|534|Design TinyURL|0.0%|Medium|
-|<ul><li>- [ ] </li><ul>|659|Split Array into Consecutive Subsequences|35.8%|Medium|
-|<ul><li>- [ ] </li><ul>|54|Spiral Matrix|26.6%|Medium|
-|<ul><li>- [ ] </li><ul>|310|Minimum Height Trees|28.9%|Medium|
-|<ul><li>- [ ] </li><ul>|549|Binary Tree Longest Consecutive Sequence II |42.1%|Medium|
-|<ul><li>- [ ] </li><ul>|498|Diagonal Traverse|46.1%|Medium|
-|<ul><li>- [ ] </li><ul>|163|Missing Ranges |23.7%|Medium|
-|<ul><li>- [ ] </li><ul>|360|Sort Transformed Array |44.6%|Medium|
-|<ul><li>- [ ] </li><ul>|729|My Calendar I|39.9%|Medium|
-|<ul><li>- [ ] </li><ul>|731|My Calendar II|35.0%|Medium|
-|<ul><li>- [ ] </li><ul>|280|Wiggle Sort |58.1%|Medium|
-|<ul><li>- [ ] </li><ul>|681|Next Closest Time |43.1%|Medium|
-|<ul><li>- [ ] </li><ul>|503|Next Greater Element II|47.6%|Medium|
-|<ul><li>- [ ] </li><ul>|31|Next Permutation|28.9%|Medium|
-|<ul><li>- [ ] </li><ul>|451|Sort Characters By Frequency|51.3%|Medium|
-|<ul><li>- [ ] </li><ul>|271|Encode and Decode Strings |26.2%|Medium|
-|<ul><li>- [ ] </li><ul>|535|Encode and Decode TinyURL|74.2%|Medium|
+|<ul><li>- [x] </li><ul>|348|Design Tic-Tac-Toe |45.8%|Medium|
+|<ul><li>- [x] </li><ul>|253|Meeting Rooms II |39.3%|Medium|
+|<ul><li>- [x] </li><ul>|56|Merge Intervals|31.1%|Medium|
+|<ul><li>- [x] </li><ul>|534|Design TinyURL|0.0%|Medium|
+|<ul><li>- [x] </li><ul>|659|Split Array into Consecutive Subsequences|35.8%|Medium|
+|<ul><li>- [x] </li><ul>|54|Spiral Matrix|26.6%|Medium|
+|<ul><li>- [x] </li><ul>|310|Minimum Height Trees|28.9%|Medium|
+|<ul><li>- [x] </li><ul>|549|Binary Tree Longest Consecutive Sequence II |42.1%|Medium|
+|<ul><li>- [x] </li><ul>|498|Diagonal Traverse|46.1%|Medium|
+|<ul><li>- [x] </li><ul>|163|Missing Ranges |23.7%|Medium|
+|<ul><li>- [x] </li><ul>|360|Sort Transformed Array |44.6%|Medium|
+|<ul><li>- [x] </li><ul>|729|My Calendar I|39.9%|Medium|
+|<ul><li>- [x] </li><ul>|731|My Calendar II|35.0%|Medium|
+|<ul><li>- [x] </li><ul>|280|Wiggle Sort |58.1%|Medium|
+|<ul><li>- [x] </li><ul>|681|Next Closest Time |43.1%|Medium|
+|<ul><li>- [x] </li><ul>|503|Next Greater Element II|47.6%|Medium|
+|<ul><li>- [x] </li><ul>|31|Next Permutation|28.9%|Medium|
+|<ul><li>- [x] </li><ul>|451|Sort Characters By Frequency|51.3%|Medium|
+|<ul><li>- [x] </li><ul>|271|Encode and Decode Strings |26.2%|Medium|
+|<ul><li>- [x] </li><ul>|535|Encode and Decode TinyURL|74.2%|Medium|
 |<ul><li>- [ ] </li><ul>|298|Binary Tree Longest Consecutive Sequence |41.4%|Medium|
 |<ul><li>- [ ] </li><ul>|323|Number of Connected Components in an Undirected Graph |48.5%|Medium|
 |<ul><li>- [ ] </li><ul>|616|Add Bold Tag in String |38.9%|Medium|
