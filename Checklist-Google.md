@@ -149,7 +149,7 @@
 |<ul><li>- [x] </li><ul>|314|Binary Tree Vertical Order Traversal |37.5%|Medium|
 |<ul><li>- [?] </li><ul>|324|Wiggle Sort II|26.2%|Medium|
 |<ul><li>- [x] </li><ul>|652|Find Duplicate Subtrees|36.1%|Medium|
-|<ul><li>- [ ] </li><ul>|658|Find K Closest Elements|35.3%|Medium|
+|<ul><li>- [x] </li><ul>|658|Find K Closest Elements|35.3%|Medium|
 |<ul><li>- [ ] </li><ul>|284|Peeking Iterator|35.5%|Medium|
 |<ul><li>- [ ] </li><ul>|373|Find K Pairs with Smallest Sums|31.0%|Medium|
 |<ul><li>- [ ] </li><ul>|279|Perfect Squares|37.6%|Medium|
