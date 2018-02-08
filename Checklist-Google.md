@@ -141,9 +141,9 @@
 |<ul><li>- [x] </li><ul>|298|Binary Tree Longest Consecutive Sequence |41.4%|Medium|
 |<ul><li>- [x] </li><ul>|323|Number of Connected Components in an Undirected Graph |48.5%|Medium|
 |<ul><li>- [x] </li><ul>|616|Add Bold Tag in String |38.9%|Medium|
-|<ul><li>- [ ] </li><ul>|200|Number of Islands|35.8%|Medium|
-|<ul><li>- [ ] </li><ul>|474|Ones and Zeroes|39.0%|Medium|
-|<ul><li>- [ ] </li><ul>|399|Evaluate Division|41.7%|Medium|
+|<ul><li>- [x] </li><ul>|200|Number of Islands|35.8%|Medium|
+|<ul><li>- [x] </li><ul>|474|Ones and Zeroes|39.0%|Medium|
+|<ul><li>- [x] </li><ul>|399|Evaluate Division|41.7%|Medium|
 |<ul><li>- [ ] </li><ul>|544|Output Contest Matches |71.0%|Medium|
 |<ul><li>- [ ] </li><ul>|417|Pacific Atlantic Water Flow|34.2%|Medium|
 |<ul><li>- [ ] </li><ul>|314|Binary Tree Vertical Order Traversal |37.5%|Medium|
