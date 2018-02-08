@@ -146,9 +146,9 @@
 |<ul><li>- [?] </li><ul>|399|Evaluate Division|41.7%|Medium|
 |<ul><li>- [x] </li><ul>|544|Output Contest Matches |71.0%|Medium|
 |<ul><li>- [x] </li><ul>|417|Pacific Atlantic Water Flow|34.2%|Medium|
-|<ul><li>- [ ] </li><ul>|314|Binary Tree Vertical Order Traversal |37.5%|Medium|
-|<ul><li>- [ ] </li><ul>|324|Wiggle Sort II|26.2%|Medium|
-|<ul><li>- [ ] </li><ul>|652|Find Duplicate Subtrees|36.1%|Medium|
+|<ul><li>- [x] </li><ul>|314|Binary Tree Vertical Order Traversal |37.5%|Medium|
+|<ul><li>- [?] </li><ul>|324|Wiggle Sort II|26.2%|Medium|
+|<ul><li>- [x] </li><ul>|652|Find Duplicate Subtrees|36.1%|Medium|
 |<ul><li>- [ ] </li><ul>|658|Find K Closest Elements|35.3%|Medium|
 |<ul><li>- [ ] </li><ul>|284|Peeking Iterator|35.5%|Medium|
 |<ul><li>- [ ] </li><ul>|373|Find K Pairs with Smallest Sums|31.0%|Medium|
