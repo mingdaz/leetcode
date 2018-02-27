@@ -150,11 +150,11 @@
 |<ul><li>- [?] </li><ul>|324|Wiggle Sort II|26.2%|Medium|
 |<ul><li>- [x] </li><ul>|652|Find Duplicate Subtrees|36.1%|Medium|
 |<ul><li>- [x] </li><ul>|658|Find K Closest Elements|35.3%|Medium|
-|<ul><li>- [ ] </li><ul>|284|Peeking Iterator|35.5%|Medium|
-|<ul><li>- [ ] </li><ul>|373|Find K Pairs with Smallest Sums|31.0%|Medium|
-|<ul><li>- [ ] </li><ul>|279|Perfect Squares|37.6%|Medium|
-|<ul><li>- [ ] </li><ul>|369|Plus One Linked List |54.9%|Medium|
-|<ul><li>- [ ] </li><ul>|139|Word Break|30.8%|Medium|
+|<ul><li>- [x] </li><ul>|284|Peeking Iterator|35.5%|Medium|
+|<ul><li>- [x] </li><ul>|373|Find K Pairs with Smallest Sums|31.0%|Medium|
+|<ul><li>- [x] </li><ul>|279|Perfect Squares|37.6%|Medium|
+|<ul><li>- [x] </li><ul>|369|Plus One Linked List |54.9%|Medium|
+|<ul><li>- [x] </li><ul>|139|Word Break|30.8%|Medium|
 |<ul><li>- [ ] </li><ul>|361|Bomb Enemy |39.6%|Medium|
 |<ul><li>- [ ] </li><ul>|638|Shopping Offers|43.7%|Medium|
 |<ul><li>- [ ] </li><ul>|50|Pow(x, n)|26.0%|Medium|
