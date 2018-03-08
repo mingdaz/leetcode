@@ -155,12 +155,12 @@
 |<ul><li>- [x] </li><ul>|279|Perfect Squares|37.6%|Medium|
 |<ul><li>- [x] </li><ul>|369|Plus One Linked List |54.9%|Medium|
 |<ul><li>- [x] </li><ul>|139|Word Break|30.8%|Medium|
-|<ul><li>- [ ] </li><ul>|361|Bomb Enemy |39.6%|Medium|
-|<ul><li>- [ ] </li><ul>|638|Shopping Offers|43.7%|Medium|
-|<ul><li>- [ ] </li><ul>|50|Pow(x, n)|26.0%|Medium|
-|<ul><li>- [ ] </li><ul>|486|Predict the Winner|45.2%|Medium|
-|<ul><li>- [ ] </li><ul>|406|Queue Reconstruction by Height|56.3%|Medium|
-|<ul><li>- [ ] </li><ul>|425|Word Squares |43.6%|Hard|
+|<ul><li>- [x] </li><ul>|361|Bomb Enemy |39.6%|Medium|
+|<ul><li>- [x] </li><ul>|638|Shopping Offers|43.7%|Medium|
+|<ul><li>- [x] </li><ul>|50|Pow(x, n)|26.0%|Medium|
+|<ul><li>- [x] </li><ul>|486|Predict the Winner|45.2%|Medium|
+|<ul><li>- [x] </li><ul>|406|Queue Reconstruction by Height|56.3%|Medium|
+|<ul><li>- [xo] </li><ul>|425|Word Squares |43.6%|Hard|
 |<ul><li>- [ ] </li><ul>|644|Maximum Average Subarray II |23.2%|Hard|
 |<ul><li>- [ ] </li><ul>|493|Reverse Pairs|20.9%|Hard|
 |<ul><li>- [ ] </li><ul>|316|Remove Duplicate Letters|30.0%|Hard|
