@@ -160,11 +160,11 @@
 |<ul><li>- [x] </li><ul>|50|Pow(x, n)|26.0%|Medium|
 |<ul><li>- [x] </li><ul>|486|Predict the Winner|45.2%|Medium|
 |<ul><li>- [x] </li><ul>|406|Queue Reconstruction by Height|56.3%|Medium|
-|<ul><li>- [xo] </li><ul>|425|Word Squares |43.6%|Hard|
-|<ul><li>- [ ] </li><ul>|644|Maximum Average Subarray II |23.2%|Hard|
-|<ul><li>- [ ] </li><ul>|493|Reverse Pairs|20.9%|Hard|
-|<ul><li>- [ ] </li><ul>|316|Remove Duplicate Letters|30.0%|Hard|
-|<ul><li>- [ ] </li><ul>|297|Serialize and Deserialize Binary Tree|34.1%|Hard|
+|<ul><li>- [x] </li><ul>|425|Word Squares |43.6%|Hard|
+|<ul><li>- [x] </li><ul>|644|Maximum Average Subarray II |23.2%|Hard|
+|<ul><li>- [x] </li><ul>|493|Reverse Pairs|20.9%|Hard|
+|<ul><li>- [x] </li><ul>|316|Remove Duplicate Letters|30.0%|Hard|
+|<ul><li>- [x] </li><ul>|297|Serialize and Deserialize Binary Tree|34.1%|Hard|
 |<ul><li>- [ ] </li><ul>|10|Regular Expression Matching|24.3%|Hard|
 |<ul><li>- [ ] </li><ul>|685|Redundant Connection II|28.3%|Hard|
 |<ul><li>- [ ] </li><ul>|358|Rearrange String k Distance Apart |31.7%|Hard|
