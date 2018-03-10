@@ -13,7 +13,7 @@ public:
 	int n4 = 0;
 	int read(char *buf, int n) {
 		int i = 0;
-		while( i<n &&( i4<n4 || (i4=0)<(n4=read4(buf)) ))
+		while( i<n &&( i4<n4 || (i4=0)<(n4=read4(tmp)) ))
 			buf[i++] = tmp[i4++];
 		return i;
 	}

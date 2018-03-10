@@ -162,16 +162,16 @@
 |<ul><li>- [x] </li><ul>|406|Queue Reconstruction by Height|56.3%|Medium|
 |<ul><li>- [x] </li><ul>|425|Word Squares |43.6%|Hard|
 |<ul><li>- [x] </li><ul>|644|Maximum Average Subarray II |23.2%|Hard|
-|<ul><li>- [x] </li><ul>|493|Reverse Pairs|20.9%|Hard|
-|<ul><li>- [x] </li><ul>|316|Remove Duplicate Letters|30.0%|Hard|
+|<ul><li>- [?] </li><ul>|493|Reverse Pairs|20.9%|Hard|
+|<ul><li>- [?] </li><ul>|316|Remove Duplicate Letters|30.0%|Hard|
 |<ul><li>- [x] </li><ul>|297|Serialize and Deserialize Binary Tree|34.1%|Hard|
-|<ul><li>- [ ] </li><ul>|10|Regular Expression Matching|24.3%|Hard|
-|<ul><li>- [ ] </li><ul>|685|Redundant Connection II|28.3%|Hard|
-|<ul><li>- [ ] </li><ul>|358|Rearrange String k Distance Apart |31.7%|Hard|
-|<ul><li>- [ ] </li><ul>|158|Read N Characters Given Read4 II - Call multiple times|24.6%|Hard|
-|<ul><li>- [ ] </li><ul>|308|Range Sum Query 2D - Mutable |24.4%|Hard|
-|<ul><li>- [ ] </li><ul>|317|Shortest Distance from All Buildings |34.4%|Hard|
-|<ul><li>- [ ] </li><ul>|214|Shortest Palindrome|24.8%|Hard|
+|<ul><li>- [x] </li><ul>|10|Regular Expression Matching|24.3%|Hard|
+|<ul><li>- [?] </li><ul>|685|Redundant Connection II|28.3%|Hard|
+|<ul><li>- [?] </li><ul>|358|Rearrange String k Distance Apart |31.7%|Hard|
+|<ul><li>- [x] </li><ul>|158|Read N Characters Given Read4 II - Call multiple times|24.6%|Hard|
+|<ul><li>- [x] </li><ul>|308|Range Sum Query 2D - Mutable |24.4%|Hard|
+|<ul><li>- [?] </li><ul>|317|Shortest Distance from All Buildings |34.4%|Hard|
+|<ul><li>- [?] </li><ul>|214|Shortest Palindrome|24.8%|Hard|
 |<ul><li>- [ ] </li><ul>|391|Perfect Rectangle|27.1%|Hard|
 |<ul><li>- [ ] </li><ul>|330|Patching Array|32.4%|Hard|
 |<ul><li>- [ ] </li><ul>|239|Sliding Window Maximum|33.7%|Hard|
