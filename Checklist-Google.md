@@ -173,16 +173,16 @@
 |<ul><li>- [?] </li><ul>|317|Shortest Distance from All Buildings |34.4%|Hard|
 |<ul><li>- [?] </li><ul>|214|Shortest Palindrome|24.8%|Hard|
 |<ul><li>- [?] </li><ul>|391|Perfect Rectangle|27.1%|Hard|
-|<ul><li>- [ ] </li><ul>|330|Patching Array|32.4%|Hard|
-|<ul><li>- [ ] </li><ul>|239|Sliding Window Maximum|33.7%|Hard|
-|<ul><li>- [ ] </li><ul>|336|Palindrome Pairs|26.7%|Hard|
-|<ul><li>- [ ] </li><ul>|480|Sliding Window Median|31.0%|Hard|
-|<ul><li>- [ ] </li><ul>|465|Optimal Account Balancing |38.0%|Hard|
-|<ul><li>- [ ] </li><ul>|305|Number of Islands II |39.4%|Hard|
-|<ul><li>- [ ] </li><ul>|483|Smallest Good Base|33.6%|Hard|
-|<ul><li>- [ ] </li><ul>|726|Number of Atoms|45.1%|Hard|
-|<ul><li>- [ ] </li><ul>|302|Smallest Rectangle Enclosing Black Pixels |46.1%|Hard|
-|<ul><li>- [ ] </li><ul>|732|My Calendar III|50.9%|Hard|
+|<ul><li>- [?] </li><ul>|330|Patching Array|32.4%|Hard|
+|<ul><li>- [?] </li><ul>|239|Sliding Window Maximum|33.7%|Hard|
+|<ul><li>- [?] </li><ul>|336|Palindrome Pairs|26.7%|Hard|
+|<ul><li>- [?] </li><ul>|480|Sliding Window Median|31.0%|Hard|
+|<ul><li>- [?] </li><ul>|465|Optimal Account Balancing |38.0%|Hard|
+|<ul><li>- [x] </li><ul>|305|Number of Islands II |39.4%|Hard|
+|<ul><li>- [x] </li><ul>|483|Smallest Good Base|33.6%|Hard|
+|<ul><li>- [x] </li><ul>|726|Number of Atoms|45.1%|Hard|
+|<ul><li>- [x] </li><ul>|302|Smallest Rectangle Enclosing Black Pixels |46.1%|Hard|
+|<ul><li>- [x] </li><ul>|732|My Calendar III|50.9%|Hard|
 |<ul><li>- [ ] </li><ul>|727|Minimum Window Subsequence |30.0%|Hard|
 |<ul><li>- [ ] </li><ul>|411|Minimum Unique Word Abbreviation |33.5%|Hard|
 |<ul><li>- [ ] </li><ul>|23|Merge k Sorted Lists|27.8%|Hard|
