@@ -182,13 +182,13 @@
 |<ul><li>- [x] </li><ul>|483|Smallest Good Base|33.6%|Hard|
 |<ul><li>- [x] </li><ul>|726|Number of Atoms|45.1%|Hard|
 |<ul><li>- [x] </li><ul>|302|Smallest Rectangle Enclosing Black Pixels |46.1%|Hard|
-|<ul><li>- [x] </li><ul>|732|My Calendar III|50.9%|Hard|
-|<ul><li>- [ ] </li><ul>|727|Minimum Window Subsequence |30.0%|Hard|
-|<ul><li>- [ ] </li><ul>|411|Minimum Unique Word Abbreviation |33.5%|Hard|
-|<ul><li>- [ ] </li><ul>|23|Merge k Sorted Lists|27.8%|Hard|
-|<ul><li>- [ ] </li><ul>|4|Median of Two Sorted Arrays|22.4%|Hard|
-|<ul><li>- [ ] </li><ul>|569|Median Employee Salary |34.7%|Hard|
-|<ul><li>- [ ] </li><ul>|568|Maximum Vacation Days |38.8%|Hard|
+|<ul><li>- [?] </li><ul>|732|My Calendar III|50.9%|Hard|
+|<ul><li>- [?] </li><ul>|727|Minimum Window Subsequence |30.0%|Hard|
+|<ul><li>- [?] </li><ul>|411|Minimum Unique Word Abbreviation |33.5%|Hard|
+|<ul><li>- [x] </li><ul>|23|Merge k Sorted Lists|27.8%|Hard|
+|<ul><li>- [?] </li><ul>|4|Median of Two Sorted Arrays|22.4%|Hard|
+|<ul><li>- [?] </li><ul>|569|Median Employee Salary |34.7%|Hard|
+|<ul><li>- [x] </li><ul>|568|Maximum Vacation Days |38.8%|Hard|
 |<ul><li>- [ ] </li><ul>|689|Maximum Sum of 3 Non-Overlapping Subarrays|41.1%|Hard|
 |<ul><li>- [ ] </li><ul>|679|24 Game|38.9%|Hard|
 |<ul><li>- [ ] </li><ul>|363|Max Sum of Rectangle No Larger Than K|33.4%|Hard|
