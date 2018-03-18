@@ -189,15 +189,15 @@
 |<ul><li>- [?] </li><ul>|4|Median of Two Sorted Arrays|22.4%|Hard|
 |<ul><li>- [?] </li><ul>|569|Median Employee Salary |34.7%|Hard|
 |<ul><li>- [x] </li><ul>|568|Maximum Vacation Days |38.8%|Hard|
-|<ul><li>- [ ] </li><ul>|689|Maximum Sum of 3 Non-Overlapping Subarrays|41.1%|Hard|
-|<ul><li>- [ ] </li><ul>|679|24 Game|38.9%|Hard|
-|<ul><li>- [ ] </li><ul>|363|Max Sum of Rectangle No Larger Than K|33.4%|Hard|
-|<ul><li>- [ ] </li><ul>|354|Russian Doll Envelopes|32.4%|Hard|
-|<ul><li>- [ ] </li><ul>|146|LRU Cache|18.9%|Hard|
-|<ul><li>- [ ] </li><ul>|159|Longest Substring with At Most Two Distinct Characters|42.1%|Hard|
-|<ul><li>- [ ] </li><ul>|340|Longest Substring with At Most K Distinct Characters |39.3%|Hard|
-|<ul><li>- [ ] </li><ul>|329|Longest Increasing Path in a Matrix|36.9%|Hard|
-|<ul><li>- [ ] </li><ul>|128|Longest Consecutive Sequence|37.6%|Hard|
+|<ul><li>- [x] </li><ul>|689|Maximum Sum of 3 Non-Overlapping Subarrays|41.1%|Hard|
+|<ul><li>- [x] </li><ul>|679|24 Game|38.9%|Hard|
+|<ul><li>- [x] </li><ul>|363|Max Sum of Rectangle No Larger Than K|33.4%|Hard|
+|<ul><li>- [x] </li><ul>|354|Russian Doll Envelopes|32.4%|Hard|
+|<ul><li>- [x] </li><ul>|146|LRU Cache|18.9%|Hard|
+|<ul><li>- [x] </li><ul>|159|Longest Substring with At Most Two Distinct Characters|42.1%|Hard|
+|<ul><li>- [x] </li><ul>|340|Longest Substring with At Most K Distinct Characters |39.3%|Hard|
+|<ul><li>- [x] </li><ul>|329|Longest Increasing Path in a Matrix|36.9%|Hard|
+|<ul><li>- [x] </li><ul>|128|Longest Consecutive Sequence|37.6%|Hard|
 |<ul><li>- [ ] </li><ul>|460|LFU Cache|24.5%|Hard|
 |<ul><li>- [ ] </li><ul>|668|Kth Smallest Number in Multiplication Table|38.0%|Hard|
 |<ul><li>- [ ] </li><ul>|683|K Empty Slots |36.5%|Hard|

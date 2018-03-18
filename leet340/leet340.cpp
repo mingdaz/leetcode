@@ -1,17 +1,13 @@
 class Solution {
 public:
-    int lengthOfLongestSubstringTwoDistinct(string s) {
-        int dist = 2;
+    int lengthOfLongestSubstringKDistinct(string s, int dist) {
+        // int dist = 2;
         vector<int> cnt(256,0);
         int i = 0;
         int j = 0;
         int ret = 0;
         while(j<s.size()){
-            if(cnt[s[j]]>0){
-                cnt[s[j]]++;  
-                j++;
-            } 
-            else{
+            if(cnt[s[j]]==0){
                 if(dist==0){
                     ret = max(ret,j-i);
                     while(i<j&&cnt[s[i]]>1){
@@ -22,10 +18,10 @@ public:
                     i++;
                     dist++;
                 }
-                cnt[s[j]]++;
-                j++;
                 dist--;
             }
+            cnt[s[j]]++;
+            j++;
         }
         ret = max(ret,j-i);
         return ret;
