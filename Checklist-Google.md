@@ -198,7 +198,7 @@
 |<ul><li>- [x] </li><ul>|340|Longest Substring with At Most K Distinct Characters |39.3%|Hard|
 |<ul><li>- [x] </li><ul>|329|Longest Increasing Path in a Matrix|36.9%|Hard|
 |<ul><li>- [x] </li><ul>|128|Longest Consecutive Sequence|37.6%|Hard|
-|<ul><li>- [ ] </li><ul>|460|LFU Cache|24.5%|Hard|
+|<ul><li>- [x] </li><ul>|460|LFU Cache|24.5%|Hard|
 |<ul><li>- [ ] </li><ul>|668|Kth Smallest Number in Multiplication Table|38.0%|Hard|
 |<ul><li>- [ ] </li><ul>|683|K Empty Slots |36.5%|Hard|
 |<ul><li>- [ ] </li><ul>|218|The Skyline Problem|28.3%|Hard|
