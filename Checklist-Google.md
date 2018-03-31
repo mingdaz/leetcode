@@ -199,12 +199,12 @@
 |<ul><li>- [x] </li><ul>|329|Longest Increasing Path in a Matrix|36.9%|Hard|
 |<ul><li>- [x] </li><ul>|128|Longest Consecutive Sequence|37.6%|Hard|
 |<ul><li>- [x] </li><ul>|460|LFU Cache|24.5%|Hard|
-|<ul><li>- [ ] </li><ul>|668|Kth Smallest Number in Multiplication Table|38.0%|Hard|
-|<ul><li>- [ ] </li><ul>|683|K Empty Slots |36.5%|Hard|
-|<ul><li>- [ ] </li><ul>|218|The Skyline Problem|28.3%|Hard|
-|<ul><li>- [ ] </li><ul>|57|Insert Interval|28.4%|Hard|
-|<ul><li>- [ ] </li><ul>|407|Trapping Rain Water II|37.7%|Hard|
-|<ul><li>- [ ] </li><ul>|42|Trapping Rain Water|37.2%|Hard|
+|<ul><li>- [x] </li><ul>|668|Kth Smallest Number in Multiplication Table|38.0%|Hard|
+|<ul><li>- [x] </li><ul>|683|K Empty Slots |36.5%|Hard|
+|<ul><li>- [?] </li><ul>|218|The Skyline Problem|28.3%|Hard|
+|<ul><li>- [x] </li><ul>|57|Insert Interval|28.4%|Hard|
+|<ul><li>- [?] </li><ul>|407|Trapping Rain Water II|37.7%|Hard|
+|<ul><li>- [?] </li><ul>|42|Trapping Rain Water|37.2%|Hard|
 |<ul><li>- [ ] </li><ul>|514|Freedom Trail|39.1%|Hard|
 |<ul><li>- [ ] </li><ul>|295|Find Median from Data Stream|28.2%|Hard|
 |<ul><li>- [ ] </li><ul>|719|Find K-th Smallest Pair Distance|26.0%|Hard|
@@ -225,3 +225,31 @@
 |<ul><li>- [ ] </li><ul>|269|Alien Dictionary |25.4%|Hard|
 |<ul><li>- [ ] </li><ul>|552|Student Attendance Record II|31.4%|Hard|
 
+|<ul><li>- [x] </li><ul>|760|Find Anagram Mappings|75.4%|Easy|
+|<ul><li>- [x] </li><ul>|766|Toeplitz Matrix|57.9%|Easy|
+|<ul><li>- [x] </li><ul>|800|Similar RGB Color|52.7%|Easy|
+|<ul><li>- [x] </li><ul>|788|Rotated Digits|57.9%|Easy|
+|<ul><li>- [x] </li><ul>|783|Minimum Distance Between BST Nodes|75.4%|Easy|
+|<ul><li>- [x] </li><ul>|747|Largest Number At Least Twice of Others|57.9%|Easy|
+|<ul><li>- [x] </li><ul>|758|Bold Words in String|75.4%|Easy|
+
+	800	
+Similar RGB Color
+52.7%
+
+788	
+Rotated Digits
+50.8%	Easy
+
+783	
+Minimum Distance Between BST Nodes
+47.3%	Easy
+
+747	
+Largest Number At Least Twice of Others
+41.9%	Easy	
+
+
+758	
+Bold Words in String
+37.5%	Easy
