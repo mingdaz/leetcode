@@ -1,82 +1,90 @@
-class LRUCache {
-struct ListNode {
-     int val;
-     int key;
-     ListNode *prev;
-     ListNode *next;
-     ListNode(int x,int y) : key(x),val(y), next(NULL), prev(NULL) {}
-};
-    
+class Node {
 public:
+    Node* prev;
+    Node* next;
+    int val;
+    int key;
+    Node(Node* prev, int key, int val) {
+        this->next = NULL;
+        this->prev = prev;
+        this->val = val;
+        this->key = key;
+    }
+};
+
+class LRUCache {
+public:
+    int capacity;
+    int iter;
+    unordered_map<int, Node*> store;
+    Node* head;
+    Node* tail;
+    
     LRUCache(int capacity) {
-        cap = capacity;
+        iter = 0;
+        this->capacity = capacity;
         head = NULL;
         tail = NULL;
     }
     
+    void move2Tail(Node* temp) {
+        if (temp == tail)
+            return;
+        else if (temp == head) {
+            tail->next = temp;
+            temp->prev = tail;
+            head = head->next;
+            tail = tail->next;
+            tail->next = NULL;
+            head->prev = NULL;
+        }
+        else {
+            temp->prev->next = temp->next;
+            temp->next->prev = temp->prev;
+            temp->next = NULL;
+            tail->next = temp;
+            temp->prev = tail;
+            tail = tail->next;
+        }
+    }
+    
     int get(int key) {
-        if(dict[key]==NULL) return -1;
-        ListNode* tmp = dict[key];
-        int ret = tmp->val;
-        ListNode* prev = tmp->prev;
-        ListNode* next = tmp->next;
-        if(prev==NULL) return ret;
-        prev->next = next;
-        if(next!=NULL) next->prev = prev;
-        else tail = prev;
-        head->prev = tmp;
-        tmp->prev = NULL;
-        tmp->next = head;
-        head = tmp;
-        return ret;
+        if (store.find(key) != store.end() && store[key] != NULL) {
+            Node* temp = store[key];
+            move2Tail(temp);
+            return store[key]->val;
+        }
+        return -1;
     }
     
     void put(int key, int value) {
-        ListNode* tmp;
-        if(dict[key]==NULL){
-            tmp = new ListNode(key,value);
-            dict[key] = tmp;
-            if(head==NULL){
-                head = tmp;
-                tail = tmp; cap--;
-                return;
+        if (store[key] != NULL) {
+                store[key]->val = value;
+                move2Tail(store[key]);
+        }
+        else if (iter < capacity) {
+            iter++;
+            Node* temp = new Node(tail, key, value);
+            store[key] = temp;
+            if (head == NULL) {
+                head = temp;
+                tail = head;
             }
-            tmp->next = head;
-            head->prev = tmp;
-            head = tmp;
-            if(cap==0){
-                tmp = tail;
-                dict[tail->key] = NULL;
-                tail = tail->prev;
-                tail->next = NULL;
-                tmp->prev = NULL;
-                // free(tmp);
-            }
-            else{
-                cap--;
-            }
-        } 
-        else{
-            tmp = dict[key];
-            tmp->val = value;
-            ListNode* prev = tmp->prev;
-            ListNode* next = tmp->next;
-            if(prev==NULL) return;
-            prev->next = next;
-            if(next!=NULL) next->prev = prev;
-            else tail = prev;
-            head->prev = tmp;
-            tmp->prev = NULL;
-            tmp->next = head;
-            head = tmp;
+            else {
+                tail->next = temp;
+                tail = temp;
+            } 
+            
+        }
+        else {
+//             evict
+            store[head->key] = NULL;
+            store[key] = head;
+            head->key = key;
+            head->val = value;
+            move2Tail(head);
         }
     }
-
-private:
-    unordered_map<int,ListNode*> dict;
-    ListNode* head;
-    ListNode* tail;
-    int cap;
 };
 
 /**

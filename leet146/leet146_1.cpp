@@ -1,87 +1,42 @@
 class LRUCache {
+    int _capacity;
+    list<pair<int, int>> _list;                             // key, value
+    unordered_map<int, list<pair<int,int>>::iterator> _map; // key, iterator of list(key,value)
 public:
-    struct Node {
-        int key;
-        int value;
-        Node* next;
-        Node* prev;
-        
-        Node(int newKey, int newValue) : key(newKey), value(newValue), next(nullptr), prev(nullptr) {  
-        }
-    };
-    
-    unordered_map<int, Node*> map;
-    Node* head;
-    Node* tail;
-    int capacity;
-    int size;
-    
-    LRUCache(int newCapacity) : capacity(newCapacity), size(0) {
-        head = new Node(0, 0);
-        tail = new Node(0, 0);
-        tail->next = head;
-        head->prev = tail;
+    LRUCache(int capacity) {
+        _capacity = capacity;
     }
     
     int get(int key) {
-        if (map.count(key) > 0) {
-            return getNodeValue(map.at(key));
+        // unordered_map<int, list<pair<int,int>>::iterator>::iterator it = _map.find(key);
+        auto it = _map.find(key);
+        if(it != _map.end()){//if existed, reorder
+            _list.splice(_list.begin(), _list, it->second);//moving (1)it in (2)_list to (3)_list.begin()
+            return it->second->second;
         }
-        return -1;
+        else {//not existed
+            return -1;
+        }
     }
     
-
     void put(int key, int value) {
-        if (map.count(key) > 0) {
-            Node* node = map.at(key);
-            detachNode(node);            
-            insertIntoFrontOfList(node);
-            node->value = value;
-            
-            return;
+        // unordered_map<int, list<pair<int,int>>::iterator>::iterator it = _map.find(key);
+        auto it = _map.find(key);
+        if(it != _map.end()){//existed
+            it->second->second = value;//change value
+            _list.splice(_list.begin(), _list, it->second);//reorder
         }
-
-        Node* node = new Node(key, value);
-        insertIntoFrontOfList(node);
-        map.insert(make_pair(key, node));
-        
-        if (++size > capacity) {
-            removeLeastRecentlyUsed();
+        else {//not existied
+            //add it in
+            pair<int,int> newNode(key, value);
+            _list.push_front(newNode);
+            _map[key] = _list.begin();
+            //handle overlength
+            if(_list.size() > _capacity){
+                _map.erase(_list.back().first);//_list.end()->first
+                _list.pop_back();
+            }
         }
-    }
-    
-private:
-    // moves the node to the front of the list, then returns its value
-    int getNodeValue(Node* node) {
-        detachNode(node);
-        insertIntoFrontOfList(node);
-
-        return node->value;
-    }
-    
-    void detachNode(Node* node) {
-        Node* beforeNode = node->prev;
-        Node* afterNode = node->next;
-        beforeNode->next = afterNode;
-        afterNode->prev = beforeNode;
-    }
-
-    void insertIntoFrontOfList(Node* node) {
-        Node* beforeHead = head->prev;
-        head->prev = node;
-        node->prev = beforeHead;
-        node->next = head;
-        beforeHead->next = node;
-    }
-
-    // removes the last element, this function requires size > 0;
-    void removeLeastRecentlyUsed() {
-        Node* lastElement = tail->next;
-        detachNode(lastElement);
-        map.erase(lastElement->key);
-
-        delete lastElement;       
-        size--;
     }
 };
 

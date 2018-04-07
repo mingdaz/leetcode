@@ -209,8 +209,8 @@
 |<ul><li>- [x] </li><ul>|295|Find Median from Data Stream|28.2%|Hard|
 |<ul><li>- [?] </li><ul>|719|Find K-th Smallest Pair Distance|26.0%|Hard|
 |<ul><li>- [x] </li><ul>|282|Expression Add Operators|30.3%|Hard|
-|<ul><li>- [ ] </li><ul>|587|Erect the Fence|32.5%|Hard|
-|<ul><li>- [ ] </li><ul>|471|Encode String with Shortest Length |43.0%|Hard|
+|<ul><li>- [x] </li><ul>|587|Erect the Fence|32.5%|Hard|
+|<ul><li>- [x] </li><ul>|471|Encode String with Shortest Length |43.0%|Hard|
 |<ul><li>- [ ] </li><ul>|44|Wildcard Matching|20.6%|Hard|
 |<ul><li>- [ ] </li><ul>|527|Word Abbreviation |42.4%|Hard|
 |<ul><li>- [ ] </li><ul>|321|Create Maximum Number|24.7%|Hard|
