@@ -10,6 +10,7 @@ public:
         while(left < right){
             leftMax = max(leftMax, height[left]);
             rightMax = max(rightMax, height[right]);
+            // For the smaller side we are sure how much water could it hold
             second = min(leftMax, rightMax);
             if(height[left] < height[right]){
                 area += second - height[left];

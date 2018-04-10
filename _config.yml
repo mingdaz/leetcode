@@ -17,7 +17,7 @@ title: From Journeyman to Master
 email: zhangmd406@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Just a journeyman right now.
-baseurl: "/leetcode" # the subpath of your site, e.g. /blog
+baseurl: /leetcode # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zhangmd406
 github_username:  mingdaz
