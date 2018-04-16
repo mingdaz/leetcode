@@ -7,15 +7,21 @@ layout: default
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+{% capture posts %}
+  {% for post in site.posts %}
+    |{{ post.title }}#{{ post.url }}#{{ post.date }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedposts = posts | split: '|' | sort %}
+{% for post in sortedposts %}
+    {% assign postitems = post | split: '#' %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h5>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h5>
+        <div class="text-white"> {{ postitems[2] | date: "%Y-%m-%d" }}
+                    <a class="text-white ml-3" href="{{ postitems[1] | prepend: site.baseurl }}">{{ postitems[0] }}</a>
+        </div>
       </li>
-    {% endfor %}
+{% endfor %}
+
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
