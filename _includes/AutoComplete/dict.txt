@@ -1,0 +1,5 @@
+hello 6
+world 10
+wide 3
+hell 4
+worldwide 7
