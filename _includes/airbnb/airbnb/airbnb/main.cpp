@@ -9,6 +9,7 @@
 #include <iostream>
 #include "1_collatz_conjection.cpp"
 #include "2_implement_queue.cpp"
+#include "3_list_list.cpp"
 using namespace std;
 
 int main(){
@@ -16,6 +17,9 @@ int main(){
     test->test();
     delete test;
     test = new MyQueueTest();
+    test->test();
+    delete test;
+    test = new SolutionTest();
     test->test();
     return 0;
 }

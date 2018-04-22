@@ -15,63 +15,50 @@
  *     const vector<NestedInteger> &getList() const;
  * };
  */
+typedef vector<NestedInteger>::iterator NII; 
 class NestedIterator {
-
-
 public:
     NestedIterator(vector<NestedInteger> &nestedList) {
-        this->nestedList = nestedList;
+        head = nestedList.begin();
+        tail = nestedList.end();
+        move();
     }
 
     int next() {
-        if(stk.empty()){
-            if(nestedList[cur].isInteger()){
-                int res = nestedList[cur++].getInteger();
-                return res;
-            }         
-        }
-        else 
-            return stk.top().next();
+        int res = head->getInteger();
+        head++;
+        move();
+        return res;
     }
 
     bool hasNext() {
-        if(stk.empty()){
-            if(cur>=nestedList.size()) return false;
-            else
-                return stk_empty();
-                
-        }
-        else{
-            while(!stk.empty()&&!stk.top().hasNext()){
-                stk.pop();  
-            }
-            if(stk.empty())
-                return stk_empty();
-        }
-        return true;
+        return !S.empty()||head!=tail;
     }
-    private:
-    stack<NestedIterator> stk;
-    vector<NestedInteger> nestedList;
-    int cur = 0;
-    bool stk_empty(){
-        if(cur>=nestedList.size()) return false;
-        else{
-            if(nestedList[cur].isInteger()) return true;
-            else {
-                while(stk.empty()&&cur<nestedList.size()&&!nestedList[cur].isInteger()){
-                    stk.push(NestedIterator(nestedList[cur++].getList()));
-                    if(!stk.top().hasNext())
-                        stk.pop();
-                    else 
-                        return true;
-                }
-                if(stk.empty()&&cur>=nestedList.size())
-                    return false;
+private:
+    void move(){
+        while(true){
+            while(head!=tail&&!head->isInteger()){
+                NII th = head->getList().begin();
+                NII tt = head->getList().end();
+                head++;
+                if(head!=tail)
+                    S.push(pair<NII,NII>(head,tail));
+                head = th;
+                tail = tt;
             }
+            while(head==tail&&!S.empty()){
+                auto p = S.top();
+                S.pop();
+                head = p.first;
+                tail = p.second;
+            }
+            if(head==tail||head->isInteger())
+                break;
         }
-        return true;
+
     }
+    NII head,tail;
+    stack<pair<NII,NII>> S;
 };
 
 /**
