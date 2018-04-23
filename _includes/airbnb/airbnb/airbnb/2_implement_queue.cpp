@@ -116,6 +116,6 @@ public:
         catch(int e){
             cout<<"throw "<<e<<endl;
         }
-        cout<<"=============================="<<endl;
+        printsep();
     }
 };

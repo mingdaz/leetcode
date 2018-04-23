@@ -8,96 +8,78 @@
 
 #include <iostream>
 #include <vector>
-#include <stack>
 #include "Test.hpp"
 
 using namespace std;
 
-class NestedInteger {
+class Vector2D {
 public:
-    NestedInteger(int num){
-        isint = true;
-        a = num;
-    }
-    NestedInteger(vector<NestedInteger>& num){
-        isint = false;
-        b = num;
-    }
-    bool isInteger() const{
-        return isint;
-    }
-    int getInteger() const{
-        return a;
-    }
-    const vector<NestedInteger> &getList() const{
-        return b;
-    }
-private:
-    bool isint;
-    int a;
-    vector<NestedInteger> b;
-};
-
-typedef vector<NestedInteger>::iterator NII;
-class NestedIterator {
-public:
-    NestedIterator(vector<NestedInteger> &nestedList) {
-        head = nestedList.begin();
-        tail = nestedList.end();
-        move();
+    Vector2D(vector<vector<int>>& vec2d) {
+        head = vec2d.begin();
+        tail = vec2d.end();
+        if(head!=tail){
+            cur = (*head).begin();
+            move();
+        }
+        hasprev = false;
     }
     
     int next() {
-        int res = head->getInteger();
-        head++;
+        hasprev = true;
+        pre_col = cur;
+        pre_row = head;
+        int ret = *cur;
+        cur++;
         move();
-        return res;
+        return ret;
     }
     
     bool hasNext() {
-        return !S.empty()||head!=tail;
+        return head!=tail;
     }
+    
+    void remove(){
+        pre_row->erase(pre_col);
+    }
+    
 private:
     void move(){
-        if(head!=tail){
-            while(head!=tail&&!head->isInteger()){
-                auto newlist = head->getList();
-                auto th = newlist.begin();
-                auto tt = newlist.end();
-                head++;
-                if(head!=tail)
-                    S.push(pair<NII,NII>(head,tail));
-                head = th;
-                tail = tt;
-            }
-        }
-        while(head==tail&&!S.empty()){
-            auto p = S.top();
-            S.pop();
-            head = p.first;
-            tail = p.second;
+        while(head!=tail&&cur==head->end() ){
+            head++;
+            cur = head->begin();
         }
     }
-    NII head,tail;
-    stack<pair<NII,NII>> S;
+    vector<vector<int>>::iterator head,tail,pre_row;
+    vector<int>::iterator cur,pre_col;
+    bool hasprev;
 };
 
 /**
- * Your NestedIterator object will be instantiated and called as such:
- * NestedIterator i(nestedList);
+ * Your Vector2D object will be instantiated and called as such:
+ * Vector2D i(vec2d);
  * while (i.hasNext()) cout << i.next();
  */
 
-class SolutionTest: public Test{
+class Vector2DTest: public Test{
 public:
     void test(){
-        vector<NestedInteger> a;
-        vector<NestedInteger> b(2,NestedInteger(1));
-        a.push_back(NestedInteger(b));
-        a.push_back(NestedInteger(2));
-        a.push_back(NestedInteger(b));
-        NestedIterator testcase(a);
-        while(testcase.hasNext())
-            cout<<testcase.next()<<",";
+        cout<<"3.list_list"<<endl;
+        vector<vector<int>> a = {{1,2,3},{4,5},{6,7,8}};
+        Vector2D vd(a);
+        for(int i=0;i<5;i++){
+            cout<<vd.next()<<",";
+        }
+        vd.remove();
+        while(vd.hasNext())
+            cout<<vd.next()<<",";
+        cout<<endl;
+        cout<<"print origin"<<endl;
+        for(int i=0;i<a.size();i++){
+            for(int j=0;j<a[i].size();j++){
+                cout<<a[i][j]<<",";
+            }
+        }
+        cout<<endl;
+        printsep();
     }
 };

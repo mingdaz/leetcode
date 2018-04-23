@@ -38,6 +38,6 @@ public:
         cout<<"1.collatz_conjecture"<<endl;
         Conjecture c;
         cout<<c.findLongestSteps(7)<<"=="<<17<<endl;
-        cout<<"=============================="<<endl;
+        printsep();
     }
 };

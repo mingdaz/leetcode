@@ -8,10 +8,14 @@
 
 #ifndef TEST_HPP
 #define TEST_HPP
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 class Test{
 public:
     virtual void test(){}
+    void printsep(){
+        cout<<"=============================="<<endl;
+    }
 };
 #endif
