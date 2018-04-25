@@ -1,21 +1,29 @@
 class Solution {
 public:
-    bool isMatch(string s, string p) {
-        int inds = 0,indp = 0,indx=-1;
-        int ls = s.length(),lp = p.length();
-        while(inds<ls){
-            if(indp==lp){
-                if(indx<0) return false;
-                else inds -= (indp-indx-2), indp = indx+1;
-            }
-            else if(p[indp]=='*') indx = indp,indp++;
-            else if(s[inds]==p[indp]||p[indp]=='?') indp++,inds++;
-            else{
-                if(indx<0) return false;
-                else inds -= (indp-indx-2), indp = indx+1;
+    bool isMatch(string s, string p)
+    {
+        int i=0, j=0;
+        int ii = -1, jj = -1;
+        while(i<s.length()) {
+            if(j < p.length() && (s[i] == p[j] || p[j] == '?')) {
+                i++;
+                j++;
+            } else if (j < p.length() && p[j] == '*') {
+                jj = j++;
+                ii = i;
+            } else if (jj != -1) {
+                j = jj;
+                i = ++ii;
+            } else {
+                return false;
             }
         }
-        while(indp<lp&&p[indp]=='*') indp++;
-        return indp==lp;
+        while(j < p.length()) {
+            if(p[j] != '*') {
+                return false;
+            }
+            j++;
+        }
+        return true;
     }
 };

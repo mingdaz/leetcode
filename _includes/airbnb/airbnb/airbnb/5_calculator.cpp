@@ -11,46 +11,58 @@
 #include "Test.hpp"
 using namespace std;
 
-class Calculator{
+class Calculator {
 public:
-    struct node{
-        int val = 0;
-        int sign = 1;
-        node(int val,int sign):val(val),sign(sign){}
-    };
     int calculate(string s) {
-        stack<node*> S;
-        int idx = 0;
-        S.push(new node(0,1));
-        while(idx<s.size()){
-            while(s[idx]==' ') idx ++;
-            if(s[idx]=='('){
-                S.push(new node(0,1));
+        stack<int> S;
+        int res = 0;
+        int cur = 0;
+        int op = '+';
+        for(size_t i=0;i<s.size();i++){
+            if(s[i]==' ') continue;
+            if(isdigit(s[i])){
+                int num = 0;
+                while(i<s.size()&&isdigit(s[i])){
+                    num = num*10 + s[i] - '0';
+                    i++;
+                }
+                i--;
+                switch(op){
+                    case '+': cur += num;break;
+                    case '-': cur -= num;break;
+                    case '*': cur *= num;break;
+                    case '/': cur /= num;break;
+                }
             }
-            else if(s[idx]==')'){
-                node* p = S.top();
-                S.pop();
-                S.top()->val += (S.top()->sign>0?p->val:-p->val);
-                delete p;
+            else if(s[i]=='('){
+                S.push(res);
+                S.push(cur);
+                S.push(op);
+                res = 0;
+                cur = 0;
+                op = '+';
             }
-            else if(s[idx]=='+'){
-                S.top()->sign = 1;
-            }
-            else if(s[idx]=='-'){
-                S.top()->sign = -1;
+            else if(s[i]==')'){
+                int num = res + cur;
+                op = S.top();S.pop();
+                cur = S.top();S.pop();
+                res = S.top();S.pop();
+                switch(op){
+                    case '+': cur += num;break;
+                    case '-': cur -= num;break;
+                    case '*': cur *= num;break;
+                    case '/': cur /= num;break;
+                }
             }
             else{
-                int num = 0;
-                while(isdigit(s[idx])){
-                    num = num*10 + s[idx] - '0';
-                    idx ++;
+                if(s[i]=='+'||s[i]=='-'){
+                    res += cur;
+                    cur = 0;
                 }
-                S.top()->val += (S.top()->sign>0?num:-num);
-                idx--;
+                op = s[i];
             }
-            idx++;
         }
-        return S.top()->val;
+        return res + cur;
     }
 };
 

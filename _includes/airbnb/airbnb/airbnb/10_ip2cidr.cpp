@@ -1,4 +1,18 @@
-class Solution {
+//
+//  10_ip2cidr.cpp
+//  airbnb
+//
+//  Created by Zhang, Mingda on 4/25/18.
+//  Copyright © 2018 Zhang, Mingda. All rights reserved.
+//
+
+#include <iostream>
+#include <vector>
+#include <string>
+#include "Test.hpp"
+using namespace std;
+
+class ip2cidr {
 public:
     vector<string> ipToCIDR(string ip, int n) {
         unsigned int start_ip = ip2int(ip);
@@ -39,11 +53,23 @@ private:
         return res;
     }
     string int2ip(unsigned int num){
-        string res = "";
-        res += to_string((num>>24) & 0xFF) + ".";
-        res += to_string(num>>16 & 0xFF) + ".";
-        res += to_string(num>>8 & 0xFF) + ".";
-        res += to_string(num & 0xFF);
-        return res;
+        return to_string((num>>24) & 0xFF) + "."
+        + to_string(num>>16 & 0xFF) + "."
+        + to_string(num>>8 & 0xFF) + "."
+        + to_string(num & 0xFF);
     }
+};
+
+class ip2cidrTest: public Test {
+public:
+    void test(){
+        cout<<"10. ip to cidr"<<endl;
+        ip2cidr P;
+        vector<string> res= P.ipToCIDR("255.0.0.7", 10);
+        for(auto str:res){
+            cout<<str<<endl;
+        }
+        printsep();
+    }
+
 };
