@@ -17,6 +17,7 @@
 #include "9_Find_median.cpp"
 #include "10_ip2cidr.cpp"
 #include "12_text_justification.cpp"
+#include "13_regex.cpp"
 
 using namespace std;
 
@@ -49,6 +50,9 @@ int main(){
     test->test();
     delete test;
     test = new TextJustificationTest();
+    test->test();
+    delete test;
+    test = new RegexTest();
     test->test();
 
     return 0;
