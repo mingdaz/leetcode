@@ -18,6 +18,8 @@
 #include "10_ip2cidr.cpp"
 #include "12_text_justification.cpp"
 #include "13_regex.cpp"
+#include "15_hilbert_curve.cpp"
+#include "18_round_price.cpp"
 
 using namespace std;
 
@@ -54,6 +56,11 @@ int main(){
     delete test;
     test = new RegexTest();
     test->test();
-
+    delete test;
+    test = new HilbertTest();
+    test->test();
+    delete test;
+    test = new RoundPriceTest();
+    test->test();
     return 0;
 }
