@@ -1,7 +1,10 @@
 class Solution {
 public:
     void getPermutation(vector<vector<int>>& ans, vector<int> nums, int index) {
-        if(index+1 == nums.size()) ans.push_back(nums);
+        if(index+1 == nums.size()){
+            ans.push_back(nums);
+            return;  
+        } 
         for(int i=index;i<nums.size();i++){
             if(i!=index && nums[i]==nums[index]) continue;
             swap(nums[index],nums[i]);

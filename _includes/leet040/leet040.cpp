@@ -1,42 +1,31 @@
 class Solution {
 public:
-    vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
+    vector<vector<int>> combinationSum2(vector<int>& a, int target) {
+        sort(a.begin(),a.end());
         vector<vector<int>> res;
-        vector<int> vec;
-        int sum = 0;
-        sort(candidates.begin(), candidates.end()); 
-        combinationSum2(res, vec, candidates, target, sum, 0);
+        vector<int> path;
+        helper(res,path,a,0,target);
         return res;
     }
-
-private:
-    void combinationSum2(vector<vector<int>>&res, vector<int> &vec,
-        vector<int> &candidates, int target, int &sum, int start)
-    {
-        int tmp = 0; //last state
-        for (int i = start; i < candidates.size(); i++){
-            if (tmp == candidates[i]) //skip the same value
-                continue;
-            sum += candidates[i];
-            if (sum == target){ //find one
-                vec.push_back(candidates[i]);
-                res.push_back(vec); 
-
-                sum -= vec.back(); //backtracking
-                tmp = vec.back();
-                vec.pop_back();
-                return;
+    void helper(vector<vector<int>>& res, vector<int>& path, vector<int>& a, int idx, int target){
+        if(target==0){
+            res.push_back(path);
+            return;
+        } 
+        if(idx>=a.size()) return;
+        for(int i=idx;i<a.size();i++){
+            if(a[i]>target) break;
+            int j = i;
+            for(;i+1<a.size()&&a[i]==a[i+1];i++);
+            int k;
+            for(k=j;k<=i&&a[k]<=target;k++){
+                path.push_back(a[k]);
+                target -= a[k];
+                helper(res,path,a,i+1,target);
             }
-            else if (sum < target){
-                vec.push_back(candidates[i]);
-                combinationSum2(res, vec, candidates, target, sum, i+1);
-                sum -= vec.back(); //backtracking
-                tmp = vec.back();
-                vec.pop_back();
-            }
-            else{
-                sum -= candidates[i];
-                return;
+            for(;k>j;k--){
+                path.pop_back();
+                target += a[j];
             }
         }
     }
