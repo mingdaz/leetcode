@@ -1,40 +1,38 @@
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
-        int m = board.size(), lens = word.size();
-        if(!lens || !m)
-            return false;
+        int m = board.size();
+        int lens = word.size();
+        if(!m || !lens) return false;
         int n = board[0].size();
-        if(m*n < lens)
-            return false;
-       for(int i = 0; i < m; ++i)
-           for(int j = 0; j < n; ++j)
-           {
-               bool flag = false;
-               backtrack(i, j, m, n, -1, word, board, flag);
-               if(flag)
-                   return true;
-           }
-       return false;
+        if(m*n<lens) return false;
+        bool flag = false;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(board[i][j]==word[0]){
+                    backtracking(board,i,j,1,word,flag,m,n);
+                    if(flag) return true;
+                }
+            }
+        }
+        return false;
     }
-
 private:
-    void backtrack(int i, int j, const int m, const int n, int depth, const string &word, vector<vector<char>> &board, bool &flag)
-    {
-        if(++depth+1 == word.size() && board[i][j] == word[depth])   //an early end to backtrack must be done!
+    void backtracking(vector<vector<char>>& board, int i, int j, int idx, const string& word, bool& flag, int m, int n){
+        if(idx==word.size())
             flag = true;
-        if(flag || board[i][j] != word[depth])
+        if(flag)
             return;
-        int tmp = board[i][j];
-        board[i][j] = '$';   // '$' won't appear in an English word!
-        if(i+1 < m)
-            backtrack(i+1, j, m, n, depth, word, board, flag);
-        if(i > 0)
-            backtrack(i-1, j, m, n, depth, word, board, flag);
-        if(j+1 < n)
-            backtrack(i, j+1, m, n, depth, word, board, flag);
-        if(j > 0)
-            backtrack(i, j-1, m, n, depth, word, board, flag);
+        char tmp = board[i][j];
+        board[i][j] = '$';
+        if(i+1<m && board[i+1][j]==word[idx])
+            backtracking(board,i+1,j,idx+1,word,flag,m,n);
+        if(i-1>=0 && board[i-1][j]==word[idx])
+            backtracking(board,i-1,j,idx+1,word,flag,m,n);
+        if(j+1<n && board[i][j+1]==word[idx])
+            backtracking(board,i,j+1,idx+1,word,flag,m,n);
+        if(j-1>=0 && board[i][j-1]==word[idx])
+            backtracking(board,i,j-1,idx+1,word,flag,m,n);
         board[i][j] = tmp;
     }
 };
