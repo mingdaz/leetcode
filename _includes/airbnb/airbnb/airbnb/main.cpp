@@ -21,6 +21,7 @@
 #include "15_hilbert_curve.cpp"
 #include "18_round_price.cpp"
 #include "25_minimum_cost_k_stop.cpp"
+#include "26_pyramid.cpp"
 
 using namespace std;
 
@@ -64,7 +65,7 @@ int main(){
     test = new RoundPriceTest();
     test->test();
     delete test;
-    test = new KstopTest();
+    test = new PyramidTest();
     test->test();
     return 0;
 }
