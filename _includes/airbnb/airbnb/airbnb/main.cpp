@@ -22,7 +22,7 @@
 #include "18_round_price.cpp"
 #include "25_minimum_cost_k_stop.cpp"
 #include "26_pyramid.cpp"
-
+#include "28_alien_dic.cpp"
 using namespace std;
 
 int main(){
@@ -66,6 +66,9 @@ int main(){
     test->test();
     delete test;
     test = new PyramidTest();
+    test->test();
+    delete test;
+    test = new AlienTest();
     test->test();
     return 0;
 }

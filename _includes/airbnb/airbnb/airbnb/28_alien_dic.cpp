@@ -1,3 +1,17 @@
+//
+//  28_alien_dic.cpp
+//  airbnb
+//
+//  Created by Zhang, Mingda on 5/4/18.
+//  Copyright © 2018 Zhang, Mingda. All rights reserved.
+//
+
+#include <vector>
+#include <string>
+#include <iostream>
+#include "Test.hpp"
+using namespace std;
+
 class Solution {
 public:
     string alienOrder(vector<string>& words) {
@@ -49,3 +63,15 @@ public:
         return cnt?"":res;
     }
 };
+
+class AlienTest: public Test {
+public:
+    void test(){
+        cout<<"28. Alien Dict"<<endl;
+        vector<string> testcase = {"wrt","wrf","er","ett","rftt"};
+        Solution S;
+        cout<<S.alienOrder(testcase);
+        printsep();
+    }
+};
+
