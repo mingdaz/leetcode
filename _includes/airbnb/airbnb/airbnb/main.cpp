@@ -23,6 +23,9 @@
 #include "25_minimum_cost_k_stop.cpp"
 #include "26_pyramid.cpp"
 #include "28_alien_dic.cpp"
+#include "29_minimum.cpp"
+#include "30_Ten_Wizards.cpp"
+#include "33_Guess_Number.cpp"
 using namespace std;
 
 int main(){
@@ -70,5 +73,15 @@ int main(){
     delete test;
     test = new AlienTest();
     test->test();
+    delete test;
+    test = new MinimumTest();
+    test->test();
+    delete test;
+    test = new WizardTest();
+    test->test();
+    delete test;
+    test = new GuessNumberTest();
+    test->test();
     return 0;
+    
 }

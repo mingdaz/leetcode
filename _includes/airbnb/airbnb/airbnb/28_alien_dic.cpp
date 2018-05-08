@@ -70,7 +70,7 @@ public:
         cout<<"28. Alien Dict"<<endl;
         vector<string> testcase = {"wrt","wrf","er","ett","rftt"};
         Solution S;
-        cout<<S.alienOrder(testcase);
+        cout<<S.alienOrder(testcase)<<endl;
         printsep();
     }
 };
