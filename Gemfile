@@ -13,7 +13,7 @@ gem "jekyll", "3.3.0"
 gem 'jekyll-archives'
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sass-rails', '>= 3.2'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
