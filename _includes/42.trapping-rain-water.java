@@ -1,0 +1,83 @@
+/*
+ * @lc app=leetcode id=42 lang=java
+ *
+ * [42] Trapping Rain Water
+ *
+ * https://leetcode.com/problems/trapping-rain-water/description/
+ *
+ * algorithms
+ * Hard (45.91%)
+ * Likes:    5097
+ * Dislikes: 92
+ * Total Accepted:    394.1K
+ * Total Submissions: 857.6K
+ * Testcase Example:  '[0,1,0,2,1,0,1,3,2,1,2,1]'
+ *
+ * Given n non-negative integers representing an elevation map where the width
+ * of each bar is 1, compute how much water it is able to trap after raining.
+ * 
+ * 
+ * The above elevation map is represented by array [0,1,0,2,1,0,1,3,2,1,2,1].
+ * In this case, 6 units of rain water (blue section) are being trapped. Thanks
+ * Marcos for contributing this image!
+ * 
+ * Example:
+ * 
+ * 
+ * Input: [0,1,0,2,1,0,1,3,2,1,2,1]
+ * Output: 6
+ * 
+ */
+
+// @lc code=start
+class Solution {
+    public int trap(int[] height){
+        int ans = 0;
+        int n = height.length;
+        if(n==0) return 0;
+        int[] left = new int[n];
+        int[] right = new int[n];
+        left[0] = height[0];
+        for(int i=1;i<n;i++){
+            left[i] = Math.max(height[i],left[i-1]);
+        }
+        right[n-1] = height[n-1];
+        for(int i=n-2;i>=0;i--){
+            right[i] = Math.max(height[i], right[i+1]);
+        }
+        for(int i=0;i<n;i++){
+            ans += Math.min(left[i],right[i]) - height[i];
+        }
+        return ans;
+    } 
+}
+
+// Two Pointer
+class Solution {
+    public int trap(int[] height) {
+        int left = 0;
+        int right = height.length - 1;
+        int ans = 0;
+        int left_max = 0;
+        int right_max = 0;
+        while(left<right){
+            if (height[left] < height[right]) {
+                if(height[left] >= left_max) 
+                    left_max = height[left];
+                else  
+                    ans += (left_max - height[left]);
+                ++left;
+            }
+            else {
+                if(height[right] >= right_max)
+                    right_max = height[right]; 
+                else 
+                    ans += (right_max - height[right]);
+                --right;
+            }
+        }
+        return ans;
+    }
+}
+// @lc code=end
+
