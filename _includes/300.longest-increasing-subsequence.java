@@ -54,7 +54,27 @@ class Solution {
         }
         return len;
     }
-    
+}
+
+// 算法竞赛入门经典写法
+class Solution {
+    public int lengthOfLIS(int[] nums) {
+        int n = nums.length;
+        int[] d = new int[n];
+        int[] g = new int[n];
+        Arrays.fill(g,Integer.MAX_VALUE);
+        int ans = 0;
+        for(int i=0;i<n;i++){
+            int j = Arrays.binarySearch(g,nums[i]);
+            if(j<0){
+                j = -(j+1);
+            }
+            d[i] = j+1;
+            g[j] = nums[i];
+            ans = Math.max(ans,d[i]);
+        }
+        return ans;
+    }
 }
 
 // DP only
