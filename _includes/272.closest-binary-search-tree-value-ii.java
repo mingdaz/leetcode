@@ -58,16 +58,6 @@
 * This reference program is provided by @jiuzhang.com
 * Copyright is reserved. Please indicate the source for forwarding
 */
-
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
 class Solution {
     public List<Integer> closestKValues(TreeNode root, double target, int k) {
         List<Integer> values = new ArrayList<>();
@@ -150,4 +140,3 @@ class Solution {
     }
 }
 // @lc code=end
-
