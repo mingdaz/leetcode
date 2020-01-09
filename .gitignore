@@ -5,3 +5,5 @@ _site/
 .idea
 *.class
 output/
+面镜/
+*.pdf
