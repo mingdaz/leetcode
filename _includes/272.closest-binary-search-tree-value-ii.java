@@ -54,89 +54,25 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-/**
-* This reference program is provided by @jiuzhang.com
-* Copyright is reserved. Please indicate the source for forwarding
-*/
-class Solution {
+public class Solution {
     public List<Integer> closestKValues(TreeNode root, double target, int k) {
-        List<Integer> values = new ArrayList<>();
-        
-        if (k == 0 || root == null) {
-            return values;
-        }
-        
-        Stack<TreeNode> lowerStack = getStack(root, target);
-        Stack<TreeNode> upperStack = new Stack<>();
-        upperStack.addAll(lowerStack);
-        if (target < lowerStack.peek().val) {
-            moveLower(lowerStack);
-        } else {
-            moveUpper(upperStack);
-        }
-        
-        for (int i = 0; i < k; i++) {
-            if (lowerStack.isEmpty() ||
-                   !upperStack.isEmpty() && target - lowerStack.peek().val > upperStack.peek().val - target) {
-                values.add(upperStack.peek().val);
-                moveUpper(upperStack);
-            } else {
-                values.add(lowerStack.peek().val);
-                moveLower(lowerStack);
-            }
-        }
+        LinkedList<Integer> res = new LinkedList<>();
+        collect(root, target, k, res);
+        return res;
+    }
 
-        return values;
-    }
-    
-    private Stack<TreeNode> getStack(TreeNode root, double target) {
-        Stack<TreeNode> stack = new Stack<>();
-        
-        while (root != null) {
-            stack.push(root);
-            
-            if (target < root.val) {
-                root = root.left;
-            } else {
-                root = root.right;
-            }
+    public void collect(TreeNode root, double target, int k, LinkedList<Integer> res) {
+        if (root == null) return;
+        collect(root.left, target, k, res);
+
+        if (res.size() == k) {
+            //if size k, add curent and remove head if it's optimal, otherwise return
+            if (Math.abs(target - root.val) < Math.abs(target - res.peekFirst())) 
+                res.removeFirst();
+            else return;
         }
-        
-        return stack;
-    }
-    
-    public void moveUpper(Stack<TreeNode> stack) {
-        TreeNode node = stack.peek();
-        if (node.right == null) {
-            node = stack.pop();
-            while (!stack.isEmpty() && stack.peek().right == node) {
-                node = stack.pop();
-            }
-            return;
-        }
-        
-        node = node.right;
-        while (node != null) {
-            stack.push(node);
-            node = node.left;
-        }
-    }
-    
-    public void moveLower(Stack<TreeNode> stack) {
-        TreeNode node = stack.peek();
-        if (node.left == null) {
-            node = stack.pop();
-            while (!stack.isEmpty() && stack.peek().left == node) {
-                node = stack.pop();
-            }
-            return;
-        }
-        
-        node = node.left;
-        while (node != null) {
-            stack.push(node);
-            node = node.right;
-        }
+        res.add(root.val);
+        collect(root.right, target, k, res);
     }
 }
 // @lc code=end
