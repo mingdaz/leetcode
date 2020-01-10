@@ -63,7 +63,28 @@
 // @lc code=start
 class Solution {
     public int evalRPN(String[] tokens) {
-        
+        Stack<Integer> st = new Stack<>();
+        for(int i=0;i<tokens.length;i++){
+            char c = tokens[i].charAt(0);
+            if(tokens[i].length()==1 && !Character.isDigit(c)){
+                int a = st.pop();
+                int b = st.pop();
+                int r = 0;
+                if(c=='+'){
+                    r = a+b;
+                } else if(c=='-'){
+                    r = b - a;
+                } else if(c=='*'){
+                    r = a*b;
+                } else if(c=='/'){
+                    r = b/a;
+                }
+                st.push(r);
+            }else {
+                st.push(Integer.parseInt(tokens[i]));
+            }
+        }
+        return st.isEmpty()?-1:st.pop();
     }
 }
 // @lc code=end
